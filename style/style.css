@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+/* Reset */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* utility */
+li, a, button,p {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.72);;
+}
+
+header {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+/* nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+} */
+
+/* Navigation bar */
+ .logo {
+    cursor: pointer;
+}
+
+.nav-links ul {
+    display: inline-flex;
+    list-style: none;
+}
+
+.nav-links ul li {
+    padding: 15px;
+    margin: 15px;
+   
+
+}
+
+.nav-links ul li a {
+    transition: all 0.5s ease 0s;
+}
+
+.nav-links ul li a:hover {
+    color: #3173c1;
+}
+
+
+
+/* Dropdown-menu */
+.sub-menu-1{
+    display: none;
+}
+
+.nav-links ul li:hover .sub-menu-1{
+    display: block;
+    position: absolute;
+    background: #333;
+    margin-top: 20px;
+    margin-left: -15px;
+}
+
+.nav-links ul li:hover .sub-menu-1 ul{
+    display: block;
+    margin: 10px;
+}
+
+.nav-links ul li:hover .sub-menu-1 ul li{
+    width: 200px;
+    padding: 10px;
+    border-bottom: 1px dotted #fff;
+    /* background: transparent; */
+    text-align: left;
+}
+
+.nav-links ul li:hover .sub-menu-1 ul li:last-child{
+    border-bottom: none;
+}
+
+button {
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: #3173c1;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.5s ease 0s;
+
+}
+
+button:hover{
+    background-color: #4375a1;
+} 
+
+/* Begin your journey section */
+
+#main .begin-your-journey {
+    margin-top: 5em;
+}
+
+#main .left-text {
+    margin-top: 5em;
+}
+
+#main .divider {
+height: 200px;
+/* left: -207px; */
+top: 617px;
+background: linear-gradient(180deg, rgba(49, 115, 193, 0.84) 6.25%, rgba(150, 189, 234, 0.87) 100%);
+}
+
+/* Question section */
+#main .question-section .question-image{
+    margin-top: 5rem;
+}
+
+#main .question-section .align-text{
+    margin: 30px 0 0 15em;
+    display: flex;
+    justify-content: end;
+}
+
+#main .question-section .side-bar {
+width: 5px;
+height: 50px;
+top: 0;
+background: #3173C1;
+border-radius: 20px 0px 0px 0px;
+}
+
+#main .question-section p{
+    padding: 0 10px;
+
+    
+}
+#main .question-section .questions{
+    margin-top: 5rem;
+}
+
+/* horizontal bar */
+
+.problem-solving{
+    margin-top: 5em;
+}
+.horizontal-bar{
+    margin-top: 10em;
+}
+
+/* call to action */
+.cta-image{
+    height: 255px;
+    background-image: url("../../Assets/cta.png");
+    background-blend-mode: luminosity;
+}
+
+#main a .white {
+    position: absolute;
+    width: 160px;
+    height: 42.52px;
+    left: 640px;
+    top: 2777px;
+}
+
+/* partners we work with */
+
+#main #partners{
+    background-color: #eee;
+    padding: 50px 0;
+}
+
+#main .partner-logo{
+    margin-left: 5em;
+}
+
+#main #partners .side-bar{
+    width: 10px;
+    height: 10px;
+    color: blue;
+}
+
+/* footer section */
+
+footer{
+    position: absolute;
+    width: 100%;
+    /* */
+    background-color: #000;
+}
+#footer .contact-text{
+    color: #fff;
+    margin-top: 5em;
+    margin-left: 10px;
+    
+}
+#footer .white-text{
+    color: #fff;
+    font-size: 20px;
+}
+
+#footer .icons {
+    margin-top: 20px;
+}
+
+#footer .fab{
+    margin:10px;
+    color: #fff;
+    cursor: pointer;
+}
+
+#footer .fab:hover {
+    color: #3173C1;
+}
+
+#footer .footer-logo{
+    margin-top: 2em;
+}
+
+#footer ul {
+    padding: 0;
+}
+
+#footer ul li{
+    line-height: 2;
+    list-style: none;
+}
+
+#footer ul li a{
+    color: #fff;
+}
+
+#footer ul li a:hover{
+    color: #3173C1;
+}
+
+
+/* Journey so far page */
+
+#journey-so-far{
+    padding: 5em 0;
+}
+
+#journey-so-far .journey p{
+    margin-top: 10vh;
+  
+}
+
+#journey-so-far .journey-image{
+    margin-left: 10em;
+}
+
+#main #our-journey-scroll{
+   
+}
