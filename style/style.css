@@ -159,6 +159,7 @@ border-radius: 20px 0px 0px 0px;
 .cta-image{
     height: 255px;
     background-image: url("../../Assets/cta.png");
+    
     background-blend-mode: luminosity;
 }
 
@@ -257,6 +258,66 @@ footer{
     margin-left: 10em;
 }
 
-#main #our-journey-scroll .slider{
-
+#journey-so-far #our-journey-scroll .slider{
+    background: url("../Assets/neca-trip.jpg");
+    /* background: cover; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    width: 400px;
+    margin: 100px 0;
+    animation: slide 10s infinite;
 }
+
+@keyframes slide{
+   
+    50% {
+        background: url("../Assets/class-session.jpg");
+        
+    }
+    100% {
+        background: url("../Assets/remote.jpg");
+       
+    }
+}
+
+
+/* Our story section */
+
+#our-story #bridges-section .bg-color{
+    background-color: #EBEBEB;
+    margin-top: 5em;
+    padding: 30px;
+}
+
+#our-story #bridges-section p{
+    margin-top: 5rem;
+}
+
+#our-story #bridges-section .whatwedo-image{
+    margin-left: 10rem;
+}
+
+#our-story #who-we-are .bg-color{
+    background-color: #EBEBEB;
+    margin-top: 5em;
+    margin-bottom: 5em;
+    padding: 30px;
+}
+
+#our-story #who-we-are .whoweare-image{
+    margin-left: 10rem;
+}
+
+#our-story #who-we-are p {
+    margin-top: 5rem;
+    
+}
+
+#our-story #our-team .text-caption{
+    text-align: center;
+    font-family: "Montserrat";
+    font-weight: 700;
+    margin-bottom: 5rem;
+}
+
