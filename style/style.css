@@ -193,7 +193,7 @@ footer{
     position: absolute;
     width: 100%;
     /* */
-    background-color: #000;
+    background: linear-gradient(358.73deg, rgba(3, 31, 65, 0) -19.91%, #042348 2.98%, #04244A 92.19%)
 }
 #footer .contact-text{
     color: #fff;
@@ -258,5 +258,5 @@ footer{
 }
 
 #main #our-journey-scroll .slider{
-    
+
 }
