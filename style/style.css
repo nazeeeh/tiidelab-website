@@ -321,3 +321,18 @@ footer{
     margin-bottom: 5rem;
 }
 
+/* Partnerships section */
+
+
+#partnerships .join-us{
+    color: #3173C1;
+    margin-top: 5em;
+    
+}
+#partnerships .sponsor-text{
+    font-family: "montserrat";
+    font-size: 50px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
