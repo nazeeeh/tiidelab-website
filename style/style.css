@@ -322,7 +322,9 @@ footer{
 }
 
 /* Partnerships section */
-
+#partnerships .partner-section{
+    padding: 50px 10px;
+}
 
 #partnerships .join-us{
     color: #3173C1;
@@ -336,3 +338,49 @@ footer{
     text-transform: uppercase;
 }
 
+
+
+#partnerships .why-partner-section {
+    background: #3173c1;
+    padding: 100px 0;
+}
+
+#partnerships .partners{
+    background-color: #eee;
+    padding: 50px 0;
+
+}
+
+#partnerships .partner-logo{
+    margin-left: 5em;
+}
+
+#partnerships .why-partner-text{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    color: #fff;
+}
+
+#partnerships .form-heading-text{
+    text-align: center;
+    padding: 20px 0;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+#partnerships .form-section{
+    padding: 100px 0;
+}
+
+#partnerships .form-inputs{
+    width: 40%;
+    margin: 0 auto;
+}
+
+#partnerships .form-section .send-btn{
+    padding: 10px 40px;
+}
