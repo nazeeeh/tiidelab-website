@@ -384,3 +384,130 @@ footer{
 #partnerships .form-section .send-btn{
     padding: 10px 40px;
 }
+
+/* Tiidelab community section */
+
+#tiidelab-community .community-header{
+    height: 594px;
+    width: 100%;
+    background: url("../Assets/tiidelab-community-header.png");
+    padding: 100px 100px;
+}
+
+#tiidelab-community .what-we-are-about{
+    padding: 100px 0;
+}
+
+#tiidelab-community .our-community{
+    color: #3173c1;
+}
+
+#tiidelab-community .community-text{
+    width: 50%;    
+}
+
+#tiidelab-community .community-text h3{
+    font-family: montserrat;
+    font-weight: 800;
+    font-size: 30px;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+#tiidelab-community .community-text p{
+    color: #fff;
+    margin-bottom: 30px;
+    font-family: montserrat;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 2;
+}
+
+#tiidelab-community .news-letter {
+    background: #F0F0F0;
+    padding: 30px;
+}
+
+#tiidelab-community .news-letter .newsletter-text{
+    margin-top: 2rem;
+}
+
+#tiidelab-community .news-letter h5{
+    font-family: montserrat;
+    color: #3173c1;
+}
+
+#tiidelab-community .news-letter form{
+    width: 50%;
+
+}
+
+#tiidelab-community .news-letter-signup-btn{
+    margin-top: 3rem;
+}
+
+
+#tiidelab-community .news-letter .newsletter-image{
+    margin-left: 15rem;
+    
+}
+
+/* Volunteer with us */
+
+#volunteer .volunteer-header{
+    height: 596px;
+    background-image: url('../Assets/volunteer-header.png');
+    padding: 100px 100px;
+}
+
+#volunteer .volunteer-text {
+    width: 50%;
+    
+    /* height: 50vh; */
+    margin: 50px auto;
+}
+
+#volunteer .volunteer-text p{
+    /* width: 30px; */
+
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 50px;
+}
+
+#volunteer .volunteer-btn{
+    width: 15%;
+    margin: 0 auto;
+   
+}
+
+#volunteer .volunteer-now{
+    padding: 100px;
+}
+
+#volunteer .volunteer-now p{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 1;
+    text-align: right;
+}
+
+/* font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 60px;
+line-height: 95.9%;
+
+
+text-align: right; */
+
+/* #volunteer .volunteer-btn button{
+    margin: 0 auto;
+    margin-left: 40%;
+    border: 1px solid red;
+} */
