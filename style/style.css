@@ -258,9 +258,13 @@ footer{
     margin-left: 10em;
 }
 
-#journey-so-far #our-journey-scroll .slider{
+#journey-so-far #our-journey-scroll .image-slide{
+    width: 50%;
+}
+
+/* #journey-so-far #our-journey-scroll .slider{
     background: url("../Assets/neca-trip.jpg");
-    /* background: cover; */
+   
     background-repeat: no-repeat;
     background-size: cover;
     height: 50vh;
@@ -279,7 +283,7 @@ footer{
         background: url("../Assets/remote.jpg");
        
     }
-}
+} */
 
 
 /* Our story section */
