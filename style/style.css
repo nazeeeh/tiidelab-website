@@ -246,7 +246,7 @@ footer{
 /* Journey so far page */
 
 #journey-so-far{
-    padding: 5em 0;
+    padding: 5rem 0;
 }
 
 #journey-so-far .journey p{
@@ -257,9 +257,22 @@ footer{
 #journey-so-far .journey-image{
     margin-left: 10em;
 }
+#journey-so-far #our-journey-scroll {
+    padding: 5rem 0;
+}
+
+#journey-so-far #our-journey-scroll h4{
+    font-family: montserrat;
+    font-size: 40px;
+    font-weight: 500;
+    color: #3173C1;
+    line-height: 1.5;
+    text-align: center;
+    
+}
 
 #journey-so-far #our-journey-scroll .image-slide{
-    width: 50%;
+    /* width: 50%; */
 }
 
 /* #journey-so-far #our-journey-scroll .slider{
