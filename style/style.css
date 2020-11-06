@@ -246,33 +246,39 @@ footer{
 /* Journey so far page */
 
 #journey-so-far{
-    padding: 5rem 0;
+    padding-top: 5rem;
 }
 
 #journey-so-far .journey p{
-    margin-top: 10vh;
+    margin-top: 5vh;
+    font-family: montserrat;
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 2;
+    text-align: left;
   
 }
 
 #journey-so-far .journey-image{
-    margin-left: 10em;
+    margin-left: 5rem;
 }
 #journey-so-far #our-journey-scroll {
     padding: 5rem 0;
 }
 
 #journey-so-far #our-journey-scroll h4{
-    font-family: montserrat;
-    font-size: 40px;
-    font-weight: 500;
+    font-family: poppins;
+    font-size: 60px;
+    font-weight: 700;
     color: #3173C1;
     line-height: 1.5;
-    text-align: center;
+    text-align: left;
     
 }
 
 #journey-so-far #our-journey-scroll .image-slide{
-    /* width: 50%; */
+    border-radius: 20px 0 20px 0;
+    /* width: 100%; */
 }
 
 /* #journey-so-far #our-journey-scroll .slider{
@@ -296,6 +302,16 @@ footer{
         background: url("../Assets/remote.jpg");
        
     }
+} */
+
+#journey-so-far #our-numbers {
+    background: #3173c1;
+    padding: 5rem;
+}
+
+
+/* #journey-so-far #our-numbers .bg-color {
+    background: #3172c15b;
 } */
 
 
@@ -514,17 +530,31 @@ footer{
     text-align: right;
 }
 
-/* font-family: Poppins;
-font-style: normal;
-font-weight: bold;
-font-size: 60px;
-line-height: 95.9%;
 
-
-text-align: right; */
 
 /* #volunteer .volunteer-btn button{
     margin: 0 auto;
     margin-left: 40%;
     border: 1px solid red;
 } */
+
+/* Apply Now */
+
+#apply-now {
+    padding: 8rem 0;
+}
+
+#apply-now .apply-text p{
+    /* padding-left: 5em; */
+    /* margin-top: 5rem; */
+    font-family: montserrat;
+    font-size: 18px;
+    line-height: 2;
+}
+
+/* Meet with fellows section */
+
+#meet-with-fellows h4 {
+    text-align: center;
+    margin-top: 3rem;
+}
