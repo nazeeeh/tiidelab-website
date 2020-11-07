@@ -201,6 +201,7 @@ border-radius: 20px 0px 0px 0px;
 footer{
     position: absolute;
     width: 100%;
+    padding: 30px;
     /* */
     background: linear-gradient(358.73deg, rgba(3, 31, 65, 0) -19.91%, #042348 2.98%, #04244A 92.19%)
 }
@@ -364,18 +365,21 @@ footer{
 
 /* Partnerships section */
 #partnerships .partner-section{
-    padding: 50px 10px;
+    padding: 80px 10px;
 }
 
 #partnerships .join-us{
     color: #3173C1;
-    margin-top: 5em;
+    margin-top: 3rem;
+    font-family: "poppins";
+    font-size: 30px;
+    
     
 }
 #partnerships .sponsor-text{
-    font-family: "montserrat";
-    font-size: 50px;
-    font-weight: 700;
+    font-family: "poppins";
+    font-size: 60px;
+    font-weight: 600;
     text-transform: uppercase;
 }
 
