@@ -104,25 +104,25 @@ button:hover{
 /* Begin your journey section */
 
 #main .begin-your-journey {
-    margin-top: 5em;
+    margin: 5rem 0;
+
 }
 
 #main .left-text {
-    margin-top: 5em;
+    margin-top: 5rem;
 }
 
 #main .begin-your-journey h2{
     font-family: Poppins;
     font-weight: bold;
     font-size: 48px;
-   
     color: #3173C1;
 }
 
 #main .divider {
 height: 200px;
 /* left: -207px; */
-top: 617px;
+/* top: 617px; */
 background: linear-gradient(180deg, rgba(49, 115, 193, 0.84) 6.25%, rgba(150, 189, 234, 0.87) 100%);
 }
 
