@@ -111,6 +111,14 @@ button:hover{
     margin-top: 5em;
 }
 
+#main .begin-your-journey h2{
+    font-family: Poppins;
+    font-weight: bold;
+    font-size: 48px;
+   
+    color: #3173C1;
+}
+
 #main .divider {
 height: 200px;
 /* left: -207px; */
