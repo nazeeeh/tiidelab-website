@@ -27,7 +27,6 @@
 
     #main .question-section .left-questions{
         margin-top: 5rem;
-        text-align: center;
         margin-left: 0;
     }
 
@@ -36,6 +35,17 @@
     #main .problem-solving-section .horizontal-bar{
         margin-top: 0;
     }
+
+    /* Software developer journey section */
+    #main .software-journey p{
+        text-align: center; 
+    }
+
+    #main .software-journey .center{
+       text-align: center;
+    }
+
+
 
 }
 

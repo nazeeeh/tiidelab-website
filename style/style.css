@@ -156,27 +156,40 @@ border-radius: 20px 0px 0px 0px;
 
 /* horizontal bar */
 
-.problem-solving{
+#main .problem-solving{
     margin-top: 5em;
 }
-.horizontal-bar{
+#main .horizontal-bar{
     margin-top: 10em;
 }
+
+
+/* Software developer journey section */
+#main .software-journey p{
+    margin-top: 2rem;
+    text-align: center;
+    font-family: montserrat;
+    font-size: 16px;
+}
+
+#main .software-journey .soft-dev-image{
+    width: 90%;
+}
+
 
 /* call to action */
 .cta-image{
     height: 255px;
     background-image: url("../../Assets/cta.png");
-    
     background-blend-mode: luminosity;
+    width: 100%;
 }
 
-#main a .white {
-    position: absolute;
-    width: 160px;
-    height: 42.52px;
-    left: 640px;
-    top: 2777px;
+#main .cta-image .button{
+    height: 255px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* partners we work with */
