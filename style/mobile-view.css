@@ -104,5 +104,13 @@
         text-align: center;
     }
 
+    #our-story #milestones-section .whatwedo-image{
+        margin: 0 auto;
+    }
+
+    #our-story #milestones-section .whoweare-image{
+        margin: 0 auto;
+    }
+
 }
 
