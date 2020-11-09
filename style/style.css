@@ -196,17 +196,35 @@ border-radius: 20px 0px 0px 0px;
 
 #main #partners{
     background-color: #eee;
-    padding: 50px 0;
+    padding: 80px 0;
 }
 
-#main .partner-logo{
-    margin-left: 5em;
+#main #partners .align-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-#main #partners .side-bar{
-    width: 10px;
-    height: 10px;
-    color: blue;
+#main #partners p{
+    font-family: montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    margin-left: 10px;
+}
+
+#main #partners .partners-logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+
+}
+
+#main #partners .align-text .side-bar{
+    width: 1%;
+    height: 6vh;
+    background: #3173c1;
+    border-radius: 20px 0 0 20px;
 }
 
 /* footer section */

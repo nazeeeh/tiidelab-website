@@ -45,6 +45,12 @@
        text-align: center;
     }
 
+    /* partners section */
+
+    #main #partners .partners-logo {
+        margin-top: 5rem;
+    }
+
 
 
 }
