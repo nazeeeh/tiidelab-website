@@ -51,6 +51,19 @@
         margin-top: 5rem;
     }
 
+    footer {
+        padding: 0 10px;
+    }
+
+    #footer .contact-text{
+        margin-top: 2rem;
+        margin-left: 0;
+    }
+
+    #footer .white-text{
+        margin-top: 1rem;
+    }
+
 
 
 }
