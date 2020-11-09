@@ -65,6 +65,30 @@
     }
 
 
+    /* Journey so far page */
+    #journey-so-far{
+        padding-top: 1rem;
+    }
+
+    #journey-so-far .journey .journey-image{
+        margin-top: 3rem;
+        margin: 2rem auto 0;
+    }
+
+    #journey-so-far .journey img{
+        width: 90%;
+        text-align: center;
+    }
+
+    #journey-so-far #our-journey-scroll .heading{
+        margin-top: 5rem;
+    }
+
+    #journey-so-far #our-numbers .card-btw {
+        margin-bottom: 1rem;
+    }
+
+
 
 }
 
