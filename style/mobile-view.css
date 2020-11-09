@@ -31,5 +31,11 @@
         margin-left: 0;
     }
 
+    /* horizontal bar */
+
+    #main .problem-solving-section .horizontal-bar{
+        margin-top: 0;
+    }
+
 }
 
