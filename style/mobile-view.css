@@ -88,7 +88,21 @@
         margin-bottom: 1rem;
     }
 
+    /* Our story page */
+    
+    #our-story #story-header .story-image{
+        margin-top: 2rem;
+        width: 100%;
+    }
 
+    #our-story #story-header img{
+        width: 100%;
+    }
+
+    #our-story #what-we-do .paragraph{
+        margin-top: 2rem;
+        text-align: center;
+    }
 
 }
 

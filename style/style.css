@@ -348,12 +348,19 @@ footer{
 }
 
 
-/* #journey-so-far #our-numbers .bg-color {
-    background: #3172c15b;
-} */
-
-
 /* Our story section */
+#our-story #story-header img{
+    width: 100%;
+}
+
+#our-story #what-we-do .paragraph{
+    padding: 0 10px;
+    font-family: montserrat;
+    font-size: 18px;
+    line-height: 2;
+    text-align: center;
+}
+
 
 #our-story #bridges-section .bg-color{
     background-color: #EBEBEB;
