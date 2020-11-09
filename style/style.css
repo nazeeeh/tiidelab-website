@@ -392,6 +392,25 @@ footer{
     margin-bottom: 5rem;
 }
 
+#our-story #our-team h6{
+    text-align: center
+}
+
+#our-story #our-team p{
+    text-align: center;
+}
+
+#our-story #our-team .social-icons{
+    display: flex;
+    justify-content: center;
+}
+
+#our-story #our-team .fab{
+    color: #3173c1;
+    padding: 0 10px;
+    
+}
+
 /* Partnerships section */
 #partnerships .partner-section{
     padding: 80px 10px;
