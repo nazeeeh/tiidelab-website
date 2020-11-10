@@ -138,10 +138,12 @@
 
     #our-story #milestones-section .whatwedo-image{
         margin: 0 auto;
+        width: 100%;
     }
 
     #our-story #milestones-section .whoweare-image{
         margin: 0 auto;
+        width: 100%;
     }
 
     #our-story #our-team .cards{
