@@ -37,6 +37,7 @@ header {
 .nav-links ul {
     display: inline-flex;
     list-style: none;
+    float: right;
 }
 
 .nav-links ul li {
