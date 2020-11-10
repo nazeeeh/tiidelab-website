@@ -83,7 +83,10 @@ header {
 .nav-links ul li:hover .sub-menu-1 ul li:last-child{
     border-bottom: none;
 }
-
+#btn {
+    margin-left: 8em;
+    width: 20em;
+}
 button {
     padding: 10px 20px;
     border-radius: 10px;
