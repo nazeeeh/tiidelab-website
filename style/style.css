@@ -37,14 +37,11 @@ header {
 .nav-links ul {
     display: inline-flex;
     list-style: none;
-    float: right;
 }
 
 .nav-links ul li {
     padding: 15px;
     margin: 15px;
-   
-
 }
 
 .nav-links ul li a {
