@@ -87,6 +87,7 @@ header {
     margin-left: 8em;
     width: 20em;
 }
+
 button {
     padding: 10px 20px;
     border-radius: 10px;
@@ -129,7 +130,7 @@ background: linear-gradient(180deg, rgba(49, 115, 193, 0.84) 6.25%, rgba(150, 18
 
 /* Question section */
 #main .question-section .question-image{
-    margin-top: 5rem;
+    margin-top: 0;
 }
 
 #main .question-section .align-text{

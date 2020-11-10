@@ -9,24 +9,35 @@
         text-align: center;
     }
 
+    #main .begin-your-journey h2{
+        font-size: 35px;
+        line-height: 1.5;
+    }
+
     #main .begin-your-journey button{
-        margin-top: 2rem;
+        margin-top: 1rem;
+        margin-left: 0;
         display: block;
         width: 100%;
         
     }
 
     #main .begin-your-journey .image-right{
-        margin-top: 5rem;
+        margin-top: 3rem;
        
     }
 
+    #main .begin-your-journey .welcome-image{
+        width: 100%;
+    }
+
     #main .question-section .question-image{
-        margin: 0 auto;
+        margin-top: 0 ;
+        width: 100%;
     }
 
     #main .question-section .left-questions{
-        margin-top: 5rem;
+        margin-top: 3rem;
         margin-left: 0;
     }
 
@@ -36,9 +47,17 @@
         margin-top: 0;
     }
 
+    #main .problem-solving-section .problem-solving{
+        margin-top: 3rem;
+    }
+
     /* Software developer journey section */
     #main .software-journey p{
         text-align: center; 
+    }
+
+    #main .software-journey .soft-dev-image{
+        width: 100%;
     }
 
     #main .software-journey .center{
