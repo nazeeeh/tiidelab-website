@@ -49,6 +49,12 @@
 
     #main #partners .partners-logo {
         margin-top: 5rem;
+        width: 100%;
+        
+    }
+
+    #main #partners .logos{
+        width: 20%;
     }
 
     footer {
@@ -101,6 +107,13 @@
 
     #our-story #what-we-do .paragraph{
         margin-top: 2rem;
+        text-align: center;
+        font-size: 14px;
+    }
+
+    #our-story #milestones-section .milestones-text {
+        font-size: 14px;
+        margin-top: 0;
         text-align: center;
     }
 
