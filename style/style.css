@@ -390,8 +390,10 @@ footer{
 #our-story #our-team .text-caption{
     text-align: center;
     font-family: "Montserrat";
-    font-weight: 900;
-    margin-bottom: 5rem;
+    font-weight: 700;
+    color: #3173C1;
+    text-transform: uppercase;
+    
 }
 
 #our-story #our-team h6{
