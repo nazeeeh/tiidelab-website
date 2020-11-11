@@ -289,7 +289,8 @@ footer{
 /* Journey so far page */
 
 #journey-so-far{
-    padding-top: 5rem;
+    padding-top: 4rem;
+
 }
 
 #journey-so-far .journey p{
@@ -306,50 +307,68 @@ footer{
     margin-left: 5rem;
 }
 #journey-so-far #our-journey-scroll {
-    padding: 5rem 0;
+    padding: 2rem 0;
 }
 
 #journey-so-far #our-journey-scroll h4{
-    font-family: poppins;
-    font-size: 60px;
-    font-weight: 700;
+    font-family: montserrat;
+    font-size: 28px;
+    font-weight: 400;
     color: #3173C1;
-    line-height: 1.5;
-    text-align: left;
     
 }
 
-#journey-so-far #our-journey-scroll .image-slide{
-    border-radius: 20px 0 20px 0;
-    /* width: 100%; */
+#journey-so-far #our-journey-scroll .heading{
+   margin-bottom: 3rem;
 }
 
-/* #journey-so-far #our-journey-scroll .slider{
-    background: url("../Assets/neca-trip.jpg");
-   
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 50vh;
-    width: 400px;
-    margin: 100px 0;
-    animation: slide 10s infinite;
+#journey-so-far #our-journey-scroll .image-gallery .img-1{
+    width: 50%;
 }
 
-@keyframes slide{
-   
-    50% {
-        background: url("../Assets/class-session.jpg");
-        
-    }
-    100% {
-        background: url("../Assets/remote.jpg");
-       
-    }
-} */
+#journey-so-far #our-journey-scroll .image-gallery .img-2{
+    width: 60%;
+    margin: -30px 0 0 100px;
+}
 
-#journey-so-far #our-numbers {
-    background: #3173c1;
-    padding: 5rem;
+#journey-so-far #our-journey-scroll .image-gallery .img-3{
+    width: 60%;
+    margin: -60px 0 0 0;
+}
+
+#journey-so-far #our-journey-scroll .flex-numbers-1{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    /* border: 1px solid blue; */
+    padding: 2rem;
+}
+
+#journey-so-far #our-journey-scroll .flex-numbers-2{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    /* border: 1px solid blue; */
+    padding: 2rem;
+}
+
+#journey-so-far #our-journey-scroll .flex-numbers-1 .our-numbers p{
+    margin: 1rem 0 0 1.6rem;
+
+}
+#journey-so-far #our-journey-scroll .flex-numbers-1 .our-numbers h1{
+    margin: 1rem 0 0 1.5rem;
+}
+
+#journey-so-far #our-journey-scroll .flex-numbers-2 .our-numbers p{
+    margin: 1rem 0 0 1.6rem;
+}
+#journey-so-far #our-journey-scroll .flex-numbers-2 .our-numbers h1{
+    margin: 1rem 0 0 1.5rem;
+}
+
+#journey-so-far #our-journey-scroll .our-numbers {
+    width: 100%; 
 }
 
 
