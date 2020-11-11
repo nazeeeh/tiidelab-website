@@ -106,7 +106,7 @@ button:hover{
 /* Begin your journey section */
 
 #main .begin-your-journey {
-    margin: 5rem 0;
+    margin: 4rem 0;
 
 }
 
@@ -122,7 +122,7 @@ button:hover{
 }
 
 #main .divider {
-height: 200px;
+height: 20px;
 /* left: -207px; */
 /* top: 617px; */
 background: linear-gradient(180deg, rgba(49, 115, 193, 0.84) 6.25%, rgba(150, 189, 234, 0.87) 100%);
@@ -138,7 +138,9 @@ background: linear-gradient(180deg, rgba(49, 115, 193, 0.84) 6.25%, rgba(150, 18
     display: flex;
     justify-content: end;
 }
-
+.align-text > p {
+    font-size: x-large;
+}
 #main .question-section .side-bar {
 width: 5px;
 height: 50px;
@@ -176,7 +178,9 @@ border-radius: 20px 0px 0px 0px;
 
 #main .software-journey .soft-dev-image{
     width: 90%;
+    padding-top: -20em;
 }
+
 
 
 /* call to action */
@@ -360,6 +364,7 @@ footer{
     font-size: 18px;
     line-height: 2;
     text-align: center;
+    margin-top: -90px;
 }
 
 
