@@ -239,7 +239,7 @@ footer{
 #footer .contact-text{
     color: #fff;
     margin-left: 10px;
-    
+
 }
 #footer .white-text{
     color: #fff;
@@ -260,9 +260,9 @@ footer{
     color: #3173C1;
 }
 
-#footer .footer-logo{
+/* #footer .footer-logo{
     margin-top: 2em;
-}
+} */
 
 #footer ul {
     padding: 0;
