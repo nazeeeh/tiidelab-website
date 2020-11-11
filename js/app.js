@@ -16,15 +16,14 @@ function sendEmail(name, email, message) {
       Password: "sjinzzhhhloumuig", 
       To: "dministry356@gmail.com",
       From: "dministry356@gmail.com", 
-      Subject: `${name}: Sending ${email} using javascript`, 
-      Body: `Well that was easy!! ${message}`, 
-    //   Attachments: [ 
-    //     { 
-    //       name: "File_Name_with_Extension", 
-    //       path: "Full Path of the file" 
-    //     }] 
+      Subject: `${name}: ${email}`, 
+      Body: `${message}`, 
+      Attachments: [ 
+        { 
+          name: "File_Name_with_Extension", 
+          path: "Full Path of the file" 
+        }] 
     }).then(function (message) { 
         alert("Mail has been sent successfully");
       }); 
   } 
-  sendEmail(name, email, message);
