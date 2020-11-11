@@ -87,6 +87,7 @@ header {
     margin-left: 8em;
     width: 20em;
 }
+
 button {
     padding: 10px 20px;
     border-radius: 10px;
@@ -129,7 +130,7 @@ background: linear-gradient(180deg, rgba(49, 115, 193, 0.84) 6.25%, rgba(150, 18
 
 /* Question section */
 #main .question-section .question-image{
-    margin-top: 5rem;
+    margin-top: 0;
 }
 
 #main .question-section .align-text{
@@ -199,25 +200,25 @@ border-radius: 20px 0px 0px 0px;
 
 /* partners we work with */
 
-#main #partners{
+ #partners{
     background-color: #eee;
     padding: 80px 0;
 }
 
-#main #partners .align-text {
+ #partners .align-text {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-#main #partners p{
+ #partners p{
     font-family: montserrat;
     font-size: 16px;
     font-weight: 700;
     margin-left: 10px;
 }
 
-#main #partners .partners-logo{
+ #partners .partners-logo{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -225,7 +226,7 @@ border-radius: 20px 0px 0px 0px;
 
 }
 
-#main #partners .align-text .side-bar{
+ #partners .align-text .side-bar{
     width: 1%;
     height: 6vh;
     background: #3173c1;
@@ -241,9 +242,8 @@ footer{
 }
 #footer .contact-text{
     color: #fff;
-    margin-top: 0em;
     margin-left: 10px;
-    
+
 }
 #footer .white-text{
     color: #fff;
@@ -264,9 +264,9 @@ footer{
     color: #3173C1;
 }
 
-#footer .footer-logo{
+/* #footer .footer-logo{
     margin-top: 2em;
-}
+} */
 
 #footer ul {
     padding: 0;
@@ -370,7 +370,7 @@ footer{
 
 #our-story #milestones-section .bg-color{
     background-color: #EBEBEB;
-    margin-top: 1em;
+    margin-top: 2rem;
     padding: 30px;
 }
 
@@ -395,13 +395,15 @@ footer{
     text-align: center;
     font-family: "Montserrat";
     font-weight: 700;
-    margin-bottom: 3rem;
-    color: #042348;
+    color: #3173C1;
+    text-transform: uppercase;
+    
 }
 
 #our-story #our-team h6{
     text-align: center
 }
+
 
 #our-story #our-team p{
     text-align: center;
@@ -420,7 +422,7 @@ footer{
 
 /* Partnerships section */
 #partnerships .partner-section{
-    padding: 80px 10px;
+    margin: 5rem 0;
 }
 
 #partnerships .join-us{
@@ -439,41 +441,54 @@ footer{
 }
 
 
-
 #partnerships .why-partner-section {
     background: #3173c1;
-    padding: 100px 0;
+    padding: 2rem 0;
 }
 
-#partnerships .partners{
-    background-color: #eee;
-    padding: 50px 0;
-
+#partnerships .why-partner-image{
+    width: 80%;
 }
 
-#partnerships .partner-logo{
-    margin-left: 5em;
-}
-
-#partnerships .why-partner-text{
+#partnerships .why-partner-text h5{
     font-family: Montserrat;
     font-style: normal;
-    font-weight: bold;
+    font-weight: 400;
     font-size: 26px;
     color: #fff;
 }
 
+#partnerships .why-partner-text ul {
+    margin-top: 1rem;
+    list-style: none;
+    padding: 0;
+}
+
+#partnerships .why-partner-text ul li{
+    font-family: Montserrat;
+    font-size: 18px;
+    color: #eee;
+    line-height: 2;
+
+}
+
+#partnerships .why-partner-text .fas{
+    margin-left: 1rem;
+}
+
 #partnerships .form-heading-text{
     text-align: center;
-    padding: 20px 0;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 24px;
+    margin-bottom: 2rem;
 }
 
 #partnerships .form-section{
-    padding: 100px 0;
+    padding: 3rem 0;
+}
+
+#partnerships .form-heading-text h5{
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 22px;
 }
 
 #partnerships .form-inputs{
