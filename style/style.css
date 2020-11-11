@@ -196,25 +196,25 @@ border-radius: 20px 0px 0px 0px;
 
 /* partners we work with */
 
-#main #partners{
+ #partners{
     background-color: #eee;
     padding: 80px 0;
 }
 
-#main #partners .align-text {
+ #partners .align-text {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-#main #partners p{
+ #partners p{
     font-family: montserrat;
     font-size: 16px;
     font-weight: 700;
     margin-left: 10px;
 }
 
-#main #partners .partners-logo{
+ #partners .partners-logo{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -222,7 +222,7 @@ border-radius: 20px 0px 0px 0px;
 
 }
 
-#main #partners .align-text .side-bar{
+ #partners .align-text .side-bar{
     width: 1%;
     height: 6vh;
     background: #3173c1;
@@ -417,7 +417,7 @@ footer{
 
 /* Partnerships section */
 #partnerships .partner-section{
-    padding: 80px 10px;
+    margin: 5rem 0;
 }
 
 #partnerships .join-us{
@@ -436,28 +436,39 @@ footer{
 }
 
 
-
 #partnerships .why-partner-section {
     background: #3173c1;
-    padding: 100px 0;
+    padding: 2rem 0;
 }
 
-#partnerships .partners{
-    background-color: #eee;
-    padding: 50px 0;
-
+#partnerships .why-partner-image{
+    width: 80%;
 }
 
-#partnerships .partner-logo{
-    margin-left: 5em;
-}
-
-#partnerships .why-partner-text{
+#partnerships .why-partner-text h5{
     font-family: Montserrat;
     font-style: normal;
-    font-weight: bold;
+    font-weight: 400;
     font-size: 26px;
     color: #fff;
+}
+
+#partnerships .why-partner-text ul {
+    margin-top: 1rem;
+    list-style: none;
+    padding: 0;
+}
+
+#partnerships .why-partner-text ul li{
+    font-family: Montserrat;
+    font-size: 18px;
+    color: #eee;
+    line-height: 2;
+
+}
+
+#partnerships .why-partner-text .fas{
+    margin-left: 1rem;
 }
 
 #partnerships .form-heading-text{
