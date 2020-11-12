@@ -16,15 +16,35 @@ function sendEmail(name, email, message) {
       Password: "sjinzzhhhloumuig", 
       To: "dministry356@gmail.com",
       From: "dministry356@gmail.com", 
-      Subject: `${name}: Sending ${email} using javascript`, 
-      Body: `Well that was easy!! ${message}`, 
-    //   Attachments: [ 
-    //     { 
-    //       name: "File_Name_with_Extension", 
-    //       path: "Full Path of the file" 
-    //     }] 
+      Subject: `${name}: ${email}`, 
+      Body: `${message}`, 
+      Attachments: [ 
+        { 
+          name: "File_Name_with_Extension", 
+          path: "Full Path of the file" 
+        }] 
     }).then(function (message) { 
         alert("Mail has been sent successfully");
       }); 
   } 
-  sendEmail(name, email, message);
+
+//  Counter
+
+const counter = document.querySelectorAll('.counter');
+const speed = 200;
+counters.forEach(counter => {
+  const updateCount = () => {
+    const target = +counter.getAttribute('data-target');
+    const count = +counter.innerText;
+
+    const inc = target / speed;
+
+    if(count < target){
+      counter.innerText = count + inc;
+      setTimeout(updateCount, 1);
+    } else {
+      count.innerText = target;
+    }
+  }
+  updateCount();
+});
