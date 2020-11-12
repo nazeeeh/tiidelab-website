@@ -526,19 +526,22 @@ footer{
     height: 594px;
     width: 100%;
     background: url("../Assets/tiidelab-community-header.png");
-    padding: 100px 100px;
+    padding: 50px 100px;
+    text-align: center;
 }
 
 #tiidelab-community .what-we-are-about{
     padding: 100px 0;
 }
 
-#tiidelab-community .our-community{
-    color: #3173c1;
+#tiidelab-community .community-text{
+    width: 50%;
+    margin: 50px auto;
+       
 }
 
-#tiidelab-community .community-text{
-    width: 50%;    
+#tiidelab-community .our-community{
+    color: #3173c1;
 }
 
 #tiidelab-community .community-text h3{
@@ -546,7 +549,6 @@ footer{
     font-weight: 800;
     font-size: 30px;
     color: #fff;
-    margin-bottom: 30px;
 }
 
 #tiidelab-community .community-text p{
