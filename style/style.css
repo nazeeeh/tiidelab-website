@@ -628,23 +628,13 @@ footer{
     text-align: right;
 }
 
-
-
-/* #volunteer .volunteer-btn button{
-    margin: 0 auto;
-    margin-left: 40%;
-    border: 1px solid red;
-} */
-
 /* Apply Now */
 
 #apply-now {
-    padding: 8rem 0;
+    padding: 3rem 0;
 }
 
 #apply-now .apply-text p{
-    /* padding-left: 5em; */
-    /* margin-top: 5rem; */
     font-family: montserrat;
     font-size: 18px;
     line-height: 2;
