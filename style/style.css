@@ -137,7 +137,6 @@ background: linear-gradient(180deg, rgba(49, 115, 193, 0.84) 6.25%, rgba(150, 18
     display: flex;
     justify-content: end;
     border-radius: 10px;
-    /* border: 1px solid red; */
     background: #f0f0f0;
 }
 .align-text > p {
@@ -148,7 +147,7 @@ width: 8px;
 height: 80px;
 top: 0;
 background: #3173C1;
-border-radius: 20px 0px 0px 0px;
+border-radius: 20px 0px 0px 20px;
 }
 
 #main .question-section p{
@@ -169,7 +168,6 @@ border-radius: 20px 0px 0px 0px;
     margin-top: 10em;
 }
 
-
 /* Software developer journey section */
 
 #main .software-journey p{
@@ -183,8 +181,6 @@ border-radius: 20px 0px 0px 0px;
     width: 90%;
     padding-top: -20em;
 }
-
-
 
 /* call to action */
 .cta-image{

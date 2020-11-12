@@ -39,6 +39,16 @@
     #main .question-section .left-questions{
         margin-top: 3rem;
         margin-left: 0;
+       
+    }
+
+    #main .question-section .side-bar {
+        width: 6px;
+        height: 65px;
+        }
+
+    #main .question-section .left-questions p{
+        font-size: 16px;
     }
 
     /* horizontal bar */
@@ -62,6 +72,7 @@
 
     #main .software-journey .center{
        text-align: center;
+       margin-bottom: 10rem;
     }
 
     /* partners section */
