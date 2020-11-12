@@ -6,7 +6,7 @@ function submitForm(e){
     let email = document.querySelector("#email").value
     let message = document.querySelector("#message").value
     document.querySelector(".contact-form").reset();
-    sendEmail(name, email, message);
+    // sendEmail(name, email, message);
 }
 
 function sendEmail(name, email, message) { 
