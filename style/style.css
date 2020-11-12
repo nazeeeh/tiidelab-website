@@ -658,3 +658,19 @@ footer{
     text-align: center;
     margin: 3rem 0;
 }
+
+#meet-with-fellows #fellow-profiles .social-icons{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 50px;
+    position: absolute;
+    left: 11.5rem;
+    bottom: 5rem;
+}
+
+#meet-with-fellows #fellow-profiles .fab{
+    color: #3173C1;
+    padding-bottom: 12px;
+    font-size: 20px;
+}
