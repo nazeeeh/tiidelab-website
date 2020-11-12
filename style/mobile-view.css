@@ -157,10 +157,16 @@
         width: 100%;
     }
 
-    #our-story #our-team .cards{
+    /* Partnerships page */
+    #partnerships .partner-section{
+        margin: 0;
         text-align: center;
-        margin: 0 auto;
-    
+        margin-bottom: 3rem;
+    }
+
+    #partnerships .partner-section .sponsor-image{
+        width: 100%;
+        margin-top: 2rem;
     }
 
 }
