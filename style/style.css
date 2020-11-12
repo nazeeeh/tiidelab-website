@@ -563,7 +563,6 @@ footer{
 
 #tiidelab-community .news-letter {
     background: #F0F0F0;
-    padding: 30px;
 }
 
 #tiidelab-community .news-letter .newsletter-text{
@@ -575,18 +574,12 @@ footer{
     color: #3173c1;
 }
 
-#tiidelab-community .news-letter form{
-    width: 50%;
-
-}
-
 #tiidelab-community .news-letter-signup-btn{
-    margin-top: 3rem;
+    margin-top: 2rem;
 }
-
 
 #tiidelab-community .news-letter .newsletter-image{
-    margin-left: 15rem;
+    margin: 2rem 0 2rem 13rem;
     
 }
 
