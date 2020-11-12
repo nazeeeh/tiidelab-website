@@ -393,7 +393,7 @@ footer{
 }
 
 #our-story #milestones-section p{
-    margin-top: 5rem;
+    /* margin-top: 0; */
     font-family: montserrat;
     font-size: 16px;
     line-height: 2;
@@ -401,11 +401,13 @@ footer{
 
 #our-story #milestones-section .whatwedo-image{
     margin-left: 10rem;
+    width: 50%;
 }
 
 
 #our-story #milestones-section .whoweare-image{
     margin-left: 10rem;
+    width: 50%;
 }
 
 
