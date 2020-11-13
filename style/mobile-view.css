@@ -205,5 +205,31 @@
         margin-left: 5px;
     }
 
+    /* Volunteer page */
+
+    #volunteer .volunteer-header{
+        padding: 0;
+        text-align: center;
+    }
+
+    #volunteer .volunteer-header .volunteer-text{
+        margin-top: 5rem;
+    }
+
+    #volunteer .volunteer-header .volunteer-text p{
+        font-size: 26px;
+        font-weight: 400;
+        text-align: left;
+        margin-left: 10px;
+    }
+
+    #volunteer .volunteer-btn{
+        width: 100%;
+    }
+
+    #volunteer button{
+        margin: 0 auto;
+    }
+
 }
 

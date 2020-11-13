@@ -279,7 +279,7 @@ footer{
 
 #footer ul li a{
     color: #fff;
-    font-size: 10px;
+    font-size: 12px;
 }
 
 #footer ul li a:hover{
@@ -599,14 +599,10 @@ footer{
 
 #volunteer .volunteer-text {
     width: 50%;
-    
-    /* height: 50vh; */
     margin: 50px auto;
 }
 
 #volunteer .volunteer-text p{
-    /* width: 30px; */
-
     font-family: Montserrat;
     font-weight: bold;
     font-size: 30px;
