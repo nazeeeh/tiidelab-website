@@ -231,5 +231,18 @@
         margin: 0 auto;
     }
 
+    #volunteer .volunteer-now img{
+        width: 100%;
+    }
+
+    #volunteer .volunteer-now .volunteer-with-us-text {
+        margin-top: 2rem;
+        font-size: 40px;
+    }
+
+    #volunteer .volunteer-now .volunteer-image-section img{
+        margin: 0 auto;
+    }
+
 }
 
