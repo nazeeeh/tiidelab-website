@@ -111,8 +111,13 @@
         margin: 2rem auto 0;
     }
 
+    #journey-so-far .journey p{
+        font-size: 14px;
+        font-family: montserrat;
+    }
+
     #journey-so-far .journey img{
-        width: 90%;
+        width: 100%;
         text-align: center;
     }
 
