@@ -168,6 +168,14 @@
         margin-bottom: 3rem;
     }
 
+    #partnerships .partner-section .join-us{
+        font-size: 24px;
+    }
+
+    #partnerships .partner-section .sponsor-text{
+        font-size: 50px;
+    }
+
     #partnerships .partner-section .sponsor-image{
         width: 90%;
         margin-top: 2rem;
