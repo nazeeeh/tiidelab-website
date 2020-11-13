@@ -236,7 +236,7 @@ border-radius: 20px 0px 0px 20px;
 
 footer{
     width: 100%;
-    padding: 30px;
+    padding: 10px;
     background: linear-gradient(358.73deg, rgba(3, 31, 65, 0) -19.91%, #042348 2.98%, #04244A 92.19%)
 }
 #footer .contact-text{
@@ -246,15 +246,15 @@ footer{
 }
 #footer .white-text{
     color: #fff;
-    font-size: 20px;
+    font-size: 14px;
 }
 
 #footer .icons {
-    margin-top: 20px;
+    margin-top: 5px;
 }
 
 #footer .fab{
-    margin:10px;
+    margin: 10px;
     color: #fff;
     cursor: pointer;
 }
@@ -263,25 +263,31 @@ footer{
     color: #3173C1;
 }
 
-/* #footer .footer-logo{
-    margin-top: 2em;
-} */
+#footer .footer-logo{
+    margin-top: 5px;
+    width: 150px;
+}
 
 #footer ul {
     padding: 0;
 }
 
 #footer ul li{
-    line-height: 2;
+    line-height: 1.5;
     list-style: none;
 }
 
 #footer ul li a{
     color: #fff;
+    font-size: 10px;
 }
 
 #footer ul li a:hover{
     color: #3173C1;
+}
+
+#footer p{
+    font-size: 9px;
 }
 
 
