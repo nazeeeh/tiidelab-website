@@ -169,8 +169,36 @@
     }
 
     #partnerships .partner-section .sponsor-image{
-        width: 100%;
+        width: 90%;
         margin-top: 2rem;
+    }
+
+    #partnerships .why-partner-section{
+        text-align: center;
+    }
+    #partnerships .why-partner-section .why-partner-image{
+        width: 70%;
+    }
+
+    #partnerships .why-partner-text{
+        margin-top: 4rem;
+    }
+
+    #partnerships .why-partner-text h5{
+        font-size: 20px;
+    }
+
+    #partnerships .why-partner-text ul li{
+        font-size: 14px;
+        line-height: 2;
+    }
+
+    #partnerships .form-section h5{
+        font-size: 16px;
+    }
+
+    #partnerships .form-section .form-inputs{
+        width: 80%;
     }
 
 }
