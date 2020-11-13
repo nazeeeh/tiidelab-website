@@ -189,7 +189,7 @@
     }
 
     #partnerships .why-partner-text ul li{
-        font-size: 14px;
+        font-size: 13px;
         line-height: 2;
     }
 
@@ -199,6 +199,10 @@
 
     #partnerships .form-section .form-inputs{
         width: 80%;
+    }
+
+    #partnerships .why-partner-text .fas{
+        margin-left: 5px;
     }
 
 }
