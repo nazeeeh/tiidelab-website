@@ -5,8 +5,10 @@ function submitForm(e){
     let name = document.querySelector("#name").value
     let email = document.querySelector("#email").value
     let message = document.querySelector("#message").value
+    let file = document.querySelector("#file").value
+    let subject = document.querySelector("#subject").value
     document.querySelector(".contact-form").reset();
-    // sendEmail(name, email, message);
+    sendEmail(name, email, message, file, subject);
 }
 
 function sendEmail(name, email, message) { 
@@ -16,7 +18,7 @@ function sendEmail(name, email, message) {
       Password: "sjinzzhhhloumuig", 
       To: "dministry356@gmail.com",
       From: "dministry356@gmail.com", 
-      Subject: `${name}: ${email}`, 
+      Subject: `${subject}`, 
       Body: `${message}`, 
       Attachments: [ 
         { 
