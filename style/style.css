@@ -241,6 +241,7 @@ footer{
 }
 #footer .contact-text{
     color: #fff;
+    font-size: 20px;
     margin-left: 10px;
 
 }
@@ -280,6 +281,7 @@ footer{
 #footer ul li a{
     color: #fff;
     font-size: 12px;
+    letter-spacing: 0.5px;
 }
 
 #footer ul li a:hover{
