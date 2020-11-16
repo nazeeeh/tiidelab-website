@@ -143,11 +143,14 @@
         margin-top: 2rem;
         text-align: center;
         font-size: 14px;
+        width: 100%;
+        margin-left: 0;
     }
 
     #our-story #milestones-section .milestones-text {
         font-size: 14px;
         margin-top: 0;
+        margin-left: 0;
         text-align: center;
     }
 
