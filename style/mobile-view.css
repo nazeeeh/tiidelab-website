@@ -252,5 +252,47 @@
         margin: 0 auto;
     }
 
+    /* Tiidelab Communuity section */
+
+    #tiidelab-community .community-header{
+        padding: 0;/* text-align: center; */
+    }
+
+    #tiidelab-community  .community-text{
+        width: 100%;
+        margin-top: 5rem;
+    }
+
+    #tiidelab-community  .community-text h3{
+        font-size: 22px;
+    }
+
+    #tiidelab-community  .community-text p{
+        font-size: 16px;
+        font-weight: 400;
+        margin-top: 25px;
+        text-align: center;
+
+    }
+
+    #tiidelab-community .news-letter{
+        text-align: center;
+        padding: 0;
+    }
+
+    #tiidelab-community .news-letter .newsletter-text  {
+        width: 100%;
+    }
+
+    #tiidelab-community .news-letter .newsletter-text h5{
+        font-size: 14px;
+       
+    }
+
+    #tiidelab-community .news-letter .main{
+        margin: 3rem auto;
+        
+    }
+
 }
 
