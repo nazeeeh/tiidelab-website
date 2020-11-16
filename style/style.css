@@ -391,6 +391,8 @@ footer{
     line-height: 2;
     text-align: center;
     margin-top: -90px;
+    margin-left: 5rem;
+    margin-right: 5rem;
 }
 
 
@@ -398,6 +400,11 @@ footer{
     background-color: #EBEBEB;
     margin-top: 2rem;
     padding: 30px;
+}
+
+#our-story #milestones-section .milestones-text{
+    /* text-align: center; */
+    margin-left: 5rem;
 }
 
 #our-story #milestones-section p{
@@ -409,12 +416,12 @@ footer{
 }
 
 #our-story #milestones-section .whatwedo-image{
-    margin-left: 10rem;
+    margin-left: 12rem;
     width: 50%;
 }
 
 #our-story #milestones-section .whoweare-image{
-    margin-left: 10rem;
+    margin-left: 12rem;
     width: 50%;
 }
 
@@ -623,6 +630,11 @@ footer{
     width: 15%;
     margin: 0 auto;
    
+}
+
+#volunteer .volunteer-btn button{
+    background: #fff;
+    color: #333;
 }
 
 #volunteer .volunteer-now{
