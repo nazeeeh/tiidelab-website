@@ -644,13 +644,17 @@ footer{
     font-family: Poppins;
     font-style: normal;
     font-weight: bold;
-    font-size: 60px;
+    font-size: 50px;
     line-height: 1;
-    text-align: right;
+    /* text-align: right; */
 }
 
 #volunteer .volunteer-now .volunteer-image-section img{
-    margin-left: 17rem;
+    margin-left: 10rem;
+}
+
+#volunteer .volunteer-now .volunteer-image-section-2 .image-2{
+    margin-top: -4rem;
 }
 
 /* Apply Now */
