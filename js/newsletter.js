@@ -66,6 +66,6 @@ document.addEventListener('click', (e) => newsletter.clickHandler(e));
 $(window).load(function(){
     $('#singular-form').sForm({
       ownerEmail:'dministry356@gmail.com',
-      sitename:'http://127.0.0.1:5501/'
+      sitename:'#'
     })
   })  
