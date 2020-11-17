@@ -63,9 +63,9 @@ newsletter.submitForm = () => {
 newsletter.input.addEventListener('keypress', (e) => newsletter.handleInputKeypress(e));
 document.addEventListener('click', (e) => newsletter.clickHandler(e));
 
-$(window).load(function(){
-    $('#singular-form').sForm({
-      ownerEmail:'dministry356@gmail.com',
-      sitename:'#'
-    })
-  })  
+// $(window).load(function(){
+//     $('#singular-form').sForm({
+//       ownerEmail:'dministry356@gmail.com',
+//       sitename:'#'
+//     })
+//   })  
