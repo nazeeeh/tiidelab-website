@@ -7,6 +7,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css" integrity="sha384-DhY6onE6f3zzKbjUPRc2hOzGAdEf4/Dz+WJwBvEYL/lkkIsI3ihufq9hk9K4lVoK" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="../style/style.css">
     <link rel="stylesheet" href="../style/mobile-view.css">
     <title>Journey so far</title>
@@ -59,7 +60,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6 col-md-6 col-sm-12">
-                        <p> 
+                        <p data-aos="zoom-in-down" data-aos-delay="300" data-aos-duration="2000"> 
                             We are intentional about raising a crop of Problem Solvers that provide sustainable 
                             solutions to various challenges we face daily. Our fellows are equipped 
                             with requisite technologies and soft skills needed to translate innovative ideas to reality.
@@ -69,7 +70,9 @@
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-12">
                         <div>
-                            <img class="journey-image" src="../Assets/Journey-vector.png" alt="image">
+                            <img data-aos="fade-up"
+                            data-aos-duration="2000" 
+                            class="journey-image" src="../Assets/Journey-vector.png" alt="image">
                         </div>
                     </div>
                 </div>
@@ -178,5 +181,9 @@
 
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.bundle.min.js" integrity="sha384-BOsAfwzjNJHrJ8cZidOg56tcQWfp6y72vEJ8xQ9w6Quywb24iOsW913URv1IS4GD" crossorigin="anonymous"></script>
     <script src="../js/app.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
