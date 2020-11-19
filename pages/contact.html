@@ -9,9 +9,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
     <link rel="stylesheet" href="../style/style.css">
     <link rel="stylesheet" href="../style/mobile-view.css">
-    <link rel="stylesheet" href="../style/newsletter.css">
-    <script type="text/javascript" src="js/jquery.min.js"></script>
-    <title>TIIDELab Community</title>
+    <title>Apply Now</title>
 </head>
 <body>
     <header>
@@ -56,91 +54,43 @@
         </nav> 
     </header>
 
-    <div id="tiidelab-community">
-        <section class="community-header">
-            <div class="container-fluid bg">
-                <div class="row">
-                    <div class="col-lg-12 col-md-12 col-sm-12">
-                        <div class="community-text">
-                            <h3>TIIDELab Community</h3>
-                            <p>We are building a thriving community of problem 
-                                solvers who use technology effectively to cause large
-                                scale change.</p>
-                        </div>
-                        <div class="community-btn">
-                           <a href=""><button>Join us now</button></a>
-                        </div>
-                    </div>
-                </div>
+    <!-- main section -->
+   
+    <section class="form-section">
+        <div class="container">
+            <div class="form-heading-text">
+                <h5>Volunteer with Us</h5>
             </div>
-        </section>
-
-        <section class="what-we-are-about">
-            <div class="container">
-                <div class="our-community">
-                    <h3>Our Community</h3>
-                </div>
-                <div class="row mt-5">
-                    <div class="col-lg-4 col-md-4 col-sm-12">
-                        <div class="card mx-auto border-primary mb-3" style="max-width: 18rem;">
-                            <div class="card-body text-primary">
-                              <img class="community-image" src="../Assets/technical-skills.png" alt="image" width="200px" height="200px">
-                              <p class="card-text mt-3">Technical skills</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-sm-12">
-                        <div class="card mx-auto  border-primary mb-3" style="max-width: 18rem;">
-                            <div class="card-body text-primary">
-                                <img class="community-image" src="../Assets/soft-skills.png" alt="image" width="250px" height="200px">
-                              <p class="card-text mt-3">Soft skills</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-sm-12">
-                        <div class="card mx-auto  border-primary mb-3" style="max-width: 18rem;">
-                            <div class="card-body text-primary">
-                                <img class="community-image" src="../Assets/cds.png" alt="image" width="250px" height="200px">
-                              <p class="card-text mt-3">Community Development Service</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="news-letter">
-            <div class="container">
+            <form method="POST" class="contact-form">
                 <div class="row">
                     <div class="col-lg-6 col-md-6 col-sm-12">
-                        <div class="newsletter-text">
-                            <h5>Sign up to receive our  Newsletters Today!</h5>
+                        <div class="form-inputs">
+                            <div class="mb-3">
+                                <input type="name" id="name" class="form-control" placeholder="Enter Fullname">
+                            </div>
+                            <div class="mb-3">
+                                <input type="email" id="email" class="form-control" placeholder="Enter Email address">
+                            </div>
+                            <div class="mb-3">
+                                <input type="file" id="file" class="form-control" placeholder="Uplaod CV">
+                            </div>
+                            <div class="mb-3">
+                                <textarea class="form-control" id="message" rows="10" placeholder="Enter Message"></textarea>
+                            </div>
+                            <div class="partner-btn"> 
+                                <button type="submit" class="send-btn btn-block">send</button>
+                            </div>
                         </div>
                     </div>
-
-                    <div class="main col-lg-6 col-md-6 col-sm-12">
-                        <form method="POST" id="singular-form" class="contact-form">
-                            <button class="shown" type="button" id="subs">Subscribe</button>
-                            <div id="email-input">
-                                <input type="text" placeholder="E-mail" id="email">
-                                <button type="submit" class="addbut1" disabled="disabled">Add Me</button>
-                            </div>
-                            <div id="success" type="submit" class="send-btn btn-block">Congrats!</div>
-                        </form>
-                    </div>
-                    <!-- <div class="col-lg-5 col-md-5 col-sm-12">
-                         <img class="newsletter-image" src="../Assets/newsletter.png" alt="">   
-                    </div> -->
                 </div>
-            </div>
-        </section>
+            </form>
+        </div>
 
-    </div>
+    </section>
 
+      <!-- footer section -->
 
-     <!-- footer section -->
-
-     <footer id="footer">
+      <footer id="footer">
         <div class="footer-section">
             <div class="container">
                 <div class="row">
@@ -189,12 +139,10 @@
             </div>
         </div>
     </footer>
-    
+
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.bundle.min.js" integrity="sha384-BOsAfwzjNJHrJ8cZidOg56tcQWfp6y72vEJ8xQ9w6Quywb24iOsW913URv1IS4GD" crossorigin="anonymous"></script>
-    
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="../js/newsletter.js"></script>
-    <script src="../js/app.js"></script>
     <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="../js/app.js"></script>
 </body>
+
 </html>
