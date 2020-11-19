@@ -5,6 +5,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css" integrity="sha384-DhY6onE6f3zzKbjUPRc2hOzGAdEf4/Dz+WJwBvEYL/lkkIsI3ihufq9hk9K4lVoK" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="../style/style.css">
     <link rel="stylesheet" href="../style/mobile-view.css">
     <title>volunteer</title>
@@ -60,13 +61,18 @@
                 <div class="row">
                     <div class="col-lg-12 col-md-12 col-sm-12">
                         <div class="volunteer-text">
-                            <p>Looking to volunteer in building a
+                            <p data-aos="zoom-in-down"
+                            data-aos-delay="100"
+                            data-aos-duration="3000">Looking to volunteer in building a
                                 thriving developer community?
                             </p>                                    
                         </div>
                         <div class="volunteer-btn">
                             <!-- <button data-toggle="modal" data-target="#exampleModal">Volunteer with us</button> -->
-                            <a class="btn" href="./contact.html"><button>Get Started</button></a>
+                            <a class="btn" href="./contact.html">
+                                <button data-aos="fade-up"
+                                data-aos-duration="3000">Get Started</button>
+                            </a>
                         </div>
                        
                     </div>
@@ -181,6 +187,10 @@
     
 
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.bundle.min.js" integrity="sha384-BOsAfwzjNJHrJ8cZidOg56tcQWfp6y72vEJ8xQ9w6Quywb24iOsW913URv1IS4GD" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
     <script src="../js/smtp.js"></script>
     <script src="https://smtpjs.com/v3/smtp.js"></script>
     <script src="../js/app.js"></script>
