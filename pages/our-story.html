@@ -5,6 +5,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css" integrity="sha384-DhY6onE6f3zzKbjUPRc2hOzGAdEf4/Dz+WJwBvEYL/lkkIsI3ihufq9hk9K4lVoK" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="../style/style.css">
     <link rel="stylesheet" href="../style/mobile-view.css">
     <title>our story</title>
@@ -58,7 +59,12 @@
                 <div class="row">
                     <div class="col-lg-12 col-md-12 col-sm-12">
                         <div class="story-image">
-                            <img class="" src="../Assets/our-story.png" alt="image">
+                            <img data-aos="zoom-in-up"
+                            data-aos-delay="500"
+                            data-aos-duration="1000"
+                            data-aos-anchor-placement="top-center"
+            
+                            class="" src="../Assets/our-story.png" alt="image">
                         </div>    
                     </div>
                 </div>
@@ -69,7 +75,9 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 col-md-12 col-sm-12">
-                        <p class="paragraph">
+                        <p data-aos="fade-down"
+                        data-aos-easing="linear"
+                        data-aos-duration="1500" class="paragraph">
                             At TIIDELab we believe the journey to Self-Reliance begins with the ability to see beyond the present.
                             Technology is an enabler and a tool to create more efficient and value-driven systems.
                             Our fellows are not just trained to develop software applications 
@@ -83,8 +91,15 @@
         <section id="milestones-section">
             <div class="container bg-color">
                 <div class="row">
+                    <div data-aos="flip-left"
+                        data-aos-easing="ease-out-cubic"
+                        data-aos-duration="4000">
+
+                        </div>
                     <div class="col-lg-6 col-md-6 col-sm-12">
-                        <p class="milestones-text">
+                        <p data-aos="flip-right"
+                        data-aos-easing="ease-out-cubic"
+                        data-aos-duration="2000" class="milestones-text">
                             With over a decade of experience in technology, 
                             business development and communications, our team 
                             continuously bridges the gap around employment, 
@@ -92,7 +107,10 @@
                         </p>
                     </div>    
                         <div class="col-lg-6 col-md-6 col-sm-12">
-                            <img class="whatwedo-image" src="../Assets/what-we-do.png" alt="image">
+                            <img data-aos="flip-left"
+                            data-aos-easing="ease-out-cubic"
+                            data-aos-duration="2000"
+                             class="whatwedo-image" src="../Assets/what-we-do.png" alt="image">
                         </div>
                 </div>
             </div>
@@ -102,27 +120,35 @@
             <div class="container bg-color">
                 <div class="row">
                     <div class="col-lg-6 col-md-6 col-sm-12">
-                        <p class="milestones-text">
+                        <p data-aos="flip-up"
+                        data-aos-duration="2000"
+                         class="milestones-text">
                             We utilize the blended learning process and strong evaluation 
                             metrics to ensure that our fellows are adequately prepared 
                             to tackle real-life challenges. 
                         </p>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-12">
-                        <img class="whoweare-image" src="../Assets/who-we-are.png" alt="image">
+                        <img data-aos="flip-down"
+                        data-aos-duration="2000"
+                        
+                        class="whoweare-image" src="../Assets/who-we-are.png" alt="image">
                     </div>
                 </div>
             </div>
         </section>
 
         <section id="our-team">
-            <h4 class="text-caption">Our Team</h4>
+            <h4 data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine"  
+            class="text-caption">Our Team</h4>
             <div class="container mt-4 mb-5">
                 <div class="row">
                     <div class="col-lg-3 col-md-3 col-sm-12">
                     </div>
                     <div class="col-lg-3 col-md-3 col-sm-12">
-                        <div class="mx-auto" style="width: 15rem;">
+                        <div data-aos="flip-up" data-aos-delay="200" class="mx-auto" style="width: 15rem;">
                             <img style="margin-left: 2em;" src="../Assets/Mr Kadir.png" alt="" height="200em" width="200em">
                             <div class="card-body">
                               <h6 class="card-title">Kadir Salami</h6>
@@ -135,7 +161,7 @@
                           </div> 
                     </div>
                     <div class="col-lg-3 col-md-3 col-sm-12">
-                        <div class="mx-auto" style="width: 15rem;">
+                        <div data-aos="flip-down" data-aos-delay="100" class="mx-auto" style="width: 15rem;">
                             <img style="margin-left: 2em;" src="../Assets/Pk.png" alt="" height="200em" width="200em">
                             <div class="card-body">
                               <h6 class="card-title">Pishikeni Tukura</h6>
@@ -155,7 +181,7 @@
             <div class="container mb-5">
                 <div class="row">
                     <div class="col-lg-3 col-md-3 col-sm-12">
-                        <div class="mx-auto" style="width: 15rem;">
+                        <div data-aos="flip-left" data-aos-delay="100" class="mx-auto" style="width: 15rem;">
                             <img style="margin-left: 2em;" src="../Assets/Mr Shams.png" alt="" height="200em" width="200em">
                             <div class="card-body">
                               <h6 class="card-title">Shamsudeen Aderoju</h6>
@@ -168,7 +194,7 @@
                           </div>
                     </div>
                     <div class="col-lg-3 col-md-3 col-sm-12">
-                        <div class="mx-auto" style="width: 15rem;">
+                        <div data-aos="flip-up" data-aos-delay="200" class="mx-auto" style="width: 15rem;">
                             <img style="margin-left: 2em; border-radius: 100%;" src="../Assets/Mr Celestine.png" alt="" height="200em" width="200em">
                             <div class="card-body">
                               <h6 class="card-title">Celestine Omin</h6>
@@ -181,7 +207,7 @@
                           </div>
                     </div>
                     <div class="col-lg-3 col-md-3 col-sm-12">
-                        <div class="mx-auto" style="width: 15rem;">
+                        <div data-aos="flip-down" data-aos-delay="100" class="mx-auto" style="width: 15rem;">
                             <img style="margin-left: 1.6em; border-radius: 100%;" src="../Assets/Mr Kenny.png" alt="" height="200em" width="200em">
                             <div class="card-body">
                               <h6 class="card-title">Ibrahim Lukman</h6>
@@ -194,7 +220,7 @@
                           </div>
                     </div>
                     <div class="col-lg-3 col-md-3 col-sm-12">
-                        <div class="mx-auto" style="width: 15rem;">
+                        <div data-aos="flip-right" data-aos-delay="200" class="mx-auto" style="width: 15rem;">
                             <img style="margin-left: 1.4em; border-radius: 100%;" src="../Assets/Mr Solomon.png" alt="" height="200em" width="200em"">
                             <div class="card-body">
                               <h6 class="card-title">Solomon Chokor</h6>
@@ -264,5 +290,10 @@
     </div>
 </footer>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.bundle.min.js" integrity="sha384-BOsAfwzjNJHrJ8cZidOg56tcQWfp6y72vEJ8xQ9w6Quywb24iOsW913URv1IS4GD" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
 </body>
 </html>
