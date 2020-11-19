@@ -85,13 +85,14 @@ header {
 #btn {
     margin-left: 8em;
     width: 20em;
+    background-color: #E1341E;
 }
 
 button {
     padding: 10px 20px;
     border-radius: 10px;
     border: none;
-    background-color: #3173c1;
+    background-color: #E1341E;
     color: #fff;
     cursor: pointer;
     transition: all 0.5s ease 0s;
@@ -146,7 +147,7 @@ background: linear-gradient(180deg, rgba(49, 115, 193, 0.84) 6.25%, rgba(150, 18
 width: 8px;
 height: 80px;
 top: 0;
-background: #3173C1;
+background: #E1341E;
 border-radius: 20px 0px 0px 20px;
 }
 

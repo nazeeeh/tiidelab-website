@@ -5,13 +5,13 @@ function submitForm(e){
     let name = document.getElementById("name").value
     let email = document.getElementById("email").value
     let message = document.getElementById("message").value
-    // let file = document.querySelector("#file").value
+    let file = document.getElementById("file").value
     let subject = document.getElementById("subject").value
     document.querySelector(".contact-form").reset();
-    sendEmail(name, email, message, subject);
+    sendEmail(name, email, message, file, subject);
 }
 
-function sendEmail(name, email, message, subject) { 
+function sendEmail(name, email, message, file, subject) { 
     Email.send({ 
       // SecureToken: "162f5cea-b390-493e-af5f-867375ef8fc9", 
       Host: "smtp.gmail.com", 
@@ -21,11 +21,11 @@ function sendEmail(name, email, message, subject) {
       From: "dministry356@gmail.com", 
       Subject: `${name}: ${subject}Sent you message`, 
       Body: `${name}: ${message}  ${email}`, 
-      // Attachments: [ 
-      //   { 
-      //     name: `${file}.jpg`, 
-      //     path: "Full Path of the file" 
-      //   }] 
+      Attachments: [ 
+        { 
+          name: `${file}.jpg`, 
+          path: `https://tiidelab-website.netlify.app/pages/volunteer.html/${file}.jpg` 
+        }] 
     }).then((message) => { 
         alert("Mail has been sent successfully");
       }); 
