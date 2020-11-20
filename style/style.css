@@ -458,6 +458,7 @@ footer{
 /* Partnerships section */
 #partnerships .partner-section{
     margin: 5rem 0;
+    padding: 2rem 0;
 }
 
 #partnerships .join-us{
@@ -469,10 +470,31 @@ footer{
     
 }
 #partnerships .sponsor-text{
+    margin-bottom: 2rem;
+}
+#partnerships .sponsor-text h3{
+    font-family: "poppins";
+    font-size: 45px;
+    font-weight: 400;
+    color: #3173c1;
+}
+
+#partnerships .sponsor-text h1{
     font-family: "poppins";
     font-size: 60px;
-    font-weight: 600;
+    font-weight: 700;
     text-transform: uppercase;
+    color: #E1341E;
+}
+
+#partnerships .paragraph p{
+    font-family: "montserrat";
+    font-size: 16px;
+}
+
+#partnerships .sponsor-image{
+    /* margin: 0 auto; */
+    margin-left: 5rem;
 }
 
 
@@ -568,8 +590,8 @@ footer{
 }
 
 #tiidelab-community .community-header button{
-    background: #fff;
-    color: #333;
+    background: #E1341E;
+    color: #fff;
 }
 
 #tiidelab-community .what-we-are-about{
@@ -633,8 +655,8 @@ footer{
 }
 
 #volunteer .volunteer-btn button{
-    background: #fff;
-    color: #333;
+    background: #E1341E;
+    color: #fff;
 }
 
 #volunteer .volunteer-now{

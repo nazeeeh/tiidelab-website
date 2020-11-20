@@ -5,6 +5,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css" integrity="sha384-DhY6onE6f3zzKbjUPRc2hOzGAdEf4/Dz+WJwBvEYL/lkkIsI3ihufq9hk9K4lVoK" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="../style/style.css">
     <link rel="stylesheet" href="../style/mobile-view.css">
     <title>volunteer</title>
@@ -60,15 +61,19 @@
                 <div class="row">
                     <div class="col-lg-12 col-md-12 col-sm-12">
                         <div class="volunteer-text">
-                            <p>Looking to volunteer in building a
+                            <p data-aos="zoom-in-down"
+                            data-aos-delay="100"
+                            data-aos-duration="3000">Looking to volunteer in building a
                                 thriving developer community?
                             </p>                                    
                         </div>
                         <div class="volunteer-btn">
                             <!-- <button data-toggle="modal" data-target="#exampleModal">Volunteer with us</button> -->
-                            <a class="btn" href="./contact.html"><button>Get Started</button></a>
+                            <a class="btn" href="./contact.html">
+                                <button data-aos="fade-up"
+                                data-aos-duration="3000">Get Started</button>
+                            </a>
                         </div>
-                       
                     </div>
                 </div>
             </div>
@@ -109,17 +114,28 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-6 col-md-6 col-sm-12">
-                        <img class="volunteer-image" src="../Assets/volunteer-now.png" alt="volunteer now">                           
+                        <img  data-aos="fade-up"
+                        data-aos-delay="500"
+                        data-aos-duration="3000" class="volunteer-image" src="../Assets/volunteer-now.png" alt="volunteer now">                           
                     </div>
 
                     <div class="col-lg-6 col-md-6 col-sm-12">
-                        <p class="volunteer-with-us-text"><span style="color: #407BFF;">Volunteer </span>with <span style="color: #F3893D;"> us</span>
+                        <p data-aos="fade-left"
+                        data-aos-offset="100"
+                        data-aos-delay="500"
+                        data-aos-duration="1000"
+                        
+                        class="volunteer-with-us-text"><span style="color: #407BFF;">Volunteer </span>with <span style="color: #F3893D;"> us</span>
                         <span style="color: #407BFF;">today!</span></p> 
                         <div class="volunteer-image-section">
-                            <img src="../Assets/volunteer-image1.png" alt="volunteer with us">
+                            <img data-aos="zoom-in"
+                            data-aos-easing="linear"
+                            data-aos-duration="1500" src="../Assets/volunteer-image1.png" alt="volunteer with us">
                         </div>
                         <div class="volunteer-image-section-2">
-                            <img class="image-2" src="../Assets/volunteer-2.png" alt="volunteer with us">
+                            <img data-aos="zoom-out"
+                            data-aos-duration="3000"
+                            class="image-2" src="../Assets/volunteer-2.png" alt="volunteer with us">
                         </div>
                     </div>
                 </div>
@@ -181,6 +197,10 @@
     
 
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.bundle.min.js" integrity="sha384-BOsAfwzjNJHrJ8cZidOg56tcQWfp6y72vEJ8xQ9w6Quywb24iOsW913URv1IS4GD" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
     <script src="../js/smtp.js"></script>
     <script src="https://smtpjs.com/v3/smtp.js"></script>
     <script src="../js/app.js"></script>
