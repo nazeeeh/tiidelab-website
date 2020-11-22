@@ -19,8 +19,8 @@ function sendEmail(name, email, message, file, subject) {
       Password: "dointuzewauuksld",
       To: "dministry35@gmail.com",
       From: "dministry356@gmail.com", 
-      Subject: `${name}: ${subject}Sent you message`, 
-      Body: `${name}: ${message}  ${email}`, 
+      Subject: `${name}: ${subject}Sent you message`,
+      Body: `${name}: ${message}  ${email}`,
       Attachments: [ 
         { 
           name: `${file}.jpg`, 
