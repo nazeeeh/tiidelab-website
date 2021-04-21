@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="../style/style.css">
     <link rel="stylesheet" href="../style/mobile-view.css">
     
-    <title>Apply Now</title>
+    <title>Contact us</title>
 </head>
 <body>
     <header>
@@ -50,7 +50,13 @@
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                               <li><a class="dropdown-item" href="./tiidelab-community.html">TIIDELab community</a></li>
-                              <li><a class="dropdown-item" href="./meet-with-fellows.html">Meet the fellows</a></li>
+                              <li class="nav-item dropdown" id="sub-dropdown">
+                                <a class="nav-link" href="#" style="margin-left: 10px;"> Meet the fellows</a>
+                                <ul id="sub-dropdown-menu" class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="./cohort-one.html">Cohort One</a></li>
+                                    <li><a class="dropdown-item" href="./cohort-two.html">Cohort Two</a></li>
+                                </ul>
+                              </li>
                               <li><a class="dropdown-item" href="./volunteer.html">Volunteer</a></li>
                             </ul>
                           </li>
@@ -68,7 +74,7 @@
     <section class="form-section">
         <div class="container">
             <div class="form-heading-text">
-                <h5>Volunteer with Us</h5>
+                <h5>Contact Us</h5>
             </div>
             <form method="POST" class="contact-form">
                 <div class="row">
@@ -79,9 +85,6 @@
                             </div>
                             <div class="mb-3">
                                 <input type="email" id="email" class="form-control" placeholder="Enter Email address">
-                            </div>
-                            <div class="mb-3">
-                                <input type="file" id="file" class="form-control" placeholder="Uplaod CV">
                             </div>
                             <div class="mb-3">
                                 <textarea class="form-control" id="message" rows="10" placeholder="Enter Message"></textarea>
@@ -119,25 +122,24 @@
                     <div class="col-lg-3">
                         <p class="white-text">Learn More</p>
                         <ul>
-                            <li><a href="#">Apply</a></li>
-                            <li><a href="#">FAQS </a></li>
-                            <li><a href="#">Terms and Conditions</a></li>
-                            <li><a href="#">hi@tiidelab.com</a></li>  
+                            <li><a href="./Apply.html">Apply</a></li>
+                            <li><a href="./faq.html">FAQS </a></li>
+                            <li><a href="https://drive.google.com/file/d/1v2g51mSMX2cY7PTzSWHeAwF1WAiNh8Br/view">Terms and Conditions</a></li>
+                            <li><a href="mailto:hi@tiidelab.com">hi@tiidelab.com</a></li>  
                         </ul>
                     </div>
                     <div class="col-lg-3">
                         <p class="white-text">Company</p>
                         <ul>
-                            <li><a href="#">About Us</a></li>
+                            <li><a href="./our-story.html">About Us</a></li>
                             <li><a href="#">Gallery</a></li>
-                            <li><a href="#">Contact Us</a></li>
+                            <li><a href="./contact.html">Contact Us</a></li>
                             <li><a href="#">Meet the fellows</a></li>
                             <li><a href="#"> Hire a developer</a></li>
                         </ul>
                     </div>
                 </div>
             </div>
-
             <div class="container">
                 <hr style="color: #fff">
                 <div class="row">

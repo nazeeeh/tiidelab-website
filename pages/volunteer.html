@@ -52,7 +52,14 @@
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                               <li><a class="dropdown-item" href="./tiidelab-community.html">TIIDELab community</a></li>
-                              <li><a class="dropdown-item" href="./meet-with-fellows.html">Meet the fellows</a></li>
+
+                              <li class="nav-item dropdown" id="sub-dropdown">
+                                <a class="nav-link" href="#" style="margin-left: 10px;"> Meet the fellows</a>
+                                <ul id="sub-dropdown-menu" class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="./cohort-one.html">Cohort One</a></li>
+                                    <li><a class="dropdown-item" href="./cohort-two.html">Cohort Two</a></li>
+                                </ul>
+                              </li>
                               <li><a class="dropdown-item" href="./volunteer.html">Volunteer</a></li>
                             </ul>
                           </li>
@@ -80,11 +87,8 @@
                             </p>                                    
                         </div>
                         <div class="volunteer-btn">
-                            <!-- <button data-toggle="modal" data-target="#exampleModal">Volunteer with us</button> -->
-                            <a class="btn" href="./contact.html">
-                                <button data-aos="fade-up"
-                                data-aos-duration="3000">Get Started</button>
-                            </a>
+                            <button button data-aos="fade-up"
+                            data-aos-duration="3000" data-toggle="modal" data-target="#exampleModal">Volunteer with us</button>
                         </div>
                     </div>
                 </div>
@@ -109,14 +113,17 @@
                                 <input type="email" class="form-control" id="email" placeholder="Enter Email address">
                             </div>
                             <div class="mb-3">
+                                <input type="text" class="form-control" id="role" placeholder="Role">
+                            </div>
+                            <div class="mb-3">
                                 <input type="file" class="form-control" id="file">
                             </div>
                         </div>
                     </form>
                     </div>
                     <div class="modal-footer">
-                    <button type="submit" class="send-btn">send</button>
-                    <button class="" data-dismiss="modal">Close</button>
+                    <button style="background-color: #407BFF;" type="submit" class="send-btn">send</button>
+                    <button  class="" data-dismiss="modal">Close</button>
                     </div>
                 </div>
                 </div>
@@ -178,24 +185,25 @@
                 <div class="col-lg-3">
                     <p class="white-text">Learn More</p>
                     <ul>
-                        <li><a href="#">Apply</a></li>
-                        <li><a href="#">FAQS </a></li>
-                        <li><a href="#">Terms and Conditions</a></li>
-                        <li><a href="#">hi@tiidelab.com</a></li>  
+                            <li><a href="./Apply.html">Apply</a></li>
+                            <li><a href="./faq.html">FAQS </a></li>
+                            <li><a href="https://drive.google.com/file/d/1v2g51mSMX2cY7PTzSWHeAwF1WAiNh8Br/view">Terms and Conditions</a></li>
+                            <li><a href="mailto:hi@tiidelab.com">hi@tiidelab.com</a></li>  
                     </ul>
                 </div>
                 <div class="col-lg-3">
                     <p class="white-text">Company</p>
                     <ul>
-                        <li><a href="#">About Us</a></li>
+                        <li><a href="./our-story.html">About Us</a></li>
                         <li><a href="#">Gallery</a></li>
-                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="./contact.html">Contact Us</a></li>
                         <li><a href="#">Meet the fellows</a></li>
                         <li><a href="#"> Hire a developer</a></li>
                     </ul>
                 </div>
             </div>
         </div>
+        
         <div class="container">
             <hr style="color: #fff">
             <div class="row">
@@ -213,6 +221,7 @@
 
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.bundle.min.js" integrity="sha384-BOsAfwzjNJHrJ8cZidOg56tcQWfp6y72vEJ8xQ9w6Quywb24iOsW913URv1IS4GD" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="../js/app.js"></script>
     <script>
         AOS.init();
     </script>

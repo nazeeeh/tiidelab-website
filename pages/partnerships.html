@@ -52,7 +52,13 @@
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                               <li><a class="dropdown-item" href="./tiidelab-community.html">TIIDELab community</a></li>
-                              <li><a class="dropdown-item" href="./meet-with-fellows.html">Meet the fellows</a></li>
+                              <li class="nav-item dropdown" id="sub-dropdown">
+                                <a class="nav-link" href="#" style="margin-left: 10px;"> Meet the fellows</a>
+                                <ul id="sub-dropdown-menu" class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="./cohort-one.html">Cohort One</a></li>
+                                    <li><a class="dropdown-item" href="./cohort-two.html">Cohort Two</a></li>
+                                </ul>
+                              </li>
                               <li><a class="dropdown-item" href="./volunteer.html">Volunteer</a></li>
                             </ul>
                           </li>
@@ -109,17 +115,15 @@
                             data-aos-duration="1000">WHY PARTNER WITH US</h5>
                             <ul>
                                 <li data-aos="fade-up"
-                                data-aos-anchor-placement="top-center">Bridging the Gap in Expertise and Knowledge <i class="fas fa-1x fa-check-circle"></i></li>
+                                data-aos-anchor-placement="top-center">Advance your knowledge base in software technology <i class="fas fa-1x fa-check-circle"></i></li>
                                 <li data-aos="fade-up"
-                                data-aos-anchor-placement="top-center">We are committed to your success from start to finish <i class="fas fa-1x fa-check-circle"></i></li>
+                                data-aos-anchor-placement="top-center">Access to skillful and market-ready software developers <i class="fas fa-1x fa-check-circle"></i></li>
                                 <li data-aos="fade-up"
-                                data-aos-anchor-placement="top-center">Cost Savings <i class="fas fa-1x fa-check-circle"></i></li>
+                                data-aos-anchor-placement="top-center">Access to more business opportunities <i class="fas fa-1x fa-check-circle"></i></li>
                                 <li data-aos="fade-up"
-                                data-aos-anchor-placement="top-center">More Business Opportunities <i class="fas fa-1x fa-check-circle"></i></li>
+                                data-aos-anchor-placement="top-center">Save cost on employees <i class="fas fa-1x fa-check-circle"></i></li>
                                 <li data-aos="fade-up"
-                                data-aos-anchor-placement="top-center">Streamlined Process <i class="fas fa-1x fa-check-circle"></i></li>
-                                <li data-aos="fade-up"
-                                data-aos-anchor-placement="top-center">Transparent Communication <i class="fas fa-1x fa-check-circle"></i></li>
+                                data-aos-anchor-placement="top-center">Bridge youth unemployment gap<i class="fas fa-1x fa-check-circle"></i></li>
                             </ul>
                         </div>                
                     </div>
@@ -138,9 +142,11 @@
                     </div>
                     <div class="col-lg-8">
                         <div class="partners-logo">
-                            <img class="logos" src="../Assets/itf-logo.png" alt="logo">
-                            <img class="logos" src="../Assets/tcl-logo.png" alt="logo">
-                            <img class="logos" src="../Assets/neca-logo.png" alt="logo">
+                            <img class="logos" src="../Assets/itf-logo.png" alt="logo" height="" width="80px">
+                            <img class="logos" src="../Assets/tcl-logo.png" alt="logo" height="" width="130px">
+                            <img class="logos" src="../Assets/neca-logo.png" alt="logo" height="" width="130px">
+                            <img class="logos" src="../Assets/ksolutions.png" alt="logo" height="" width="130px">
+                            <img class="logos" src="../Assets/digi-agency.png" alt="logo" height="" width="130px">
                         </div>
                     </div>
                 </div>
@@ -152,21 +158,21 @@
                 <div class="form-heading-text">
                     <h5>Join us on this Journey to Self-Reliance</h5>
                 </div>
-                <form method="POST" class="contact-form">
+                <form method="" class="contact-form">
                     <div class="row">
                         <div class="col-lg-12 col-md-12 col-sm-12">
                             <div class="form-inputs">
                                 <div class="mb-3">
-                                    <input type="name" id="name" class="form-control" placeholder="Enter Fullname">
+                                    <input type="name" id="name" class="form-control" placeholder="Enter Fullname" required />
                                 </div>
                                 <div class="mb-3">
-                                    <input type="email" id="email" class="form-control" placeholder="Enter Email address">
+                                    <input type="email" id="email" class="form-control" placeholder="Enter Email address" required />
                                 </div>
                                 <div class="mb-3">
-                                    <input class="form-control" id="subject" rows="10" placeholder="Subject"></input>
+                                    <input class="form-control" id="subject" rows="10" placeholder="Subject" required />
                                 </div>
                                 <div class="mb-3">
-                                    <textarea class="form-control" id="message" rows="10" placeholder="Enter Message"></textarea>
+                                    <textarea class="form-control" id="message" rows="10" placeholder="Enter Message" required></textarea>
                                 </div>
                                 <div class="partner-btn"> 
                                     <button type="submit" class="send-btn btn-block">send</button>
@@ -202,25 +208,25 @@
                     <div class="col-lg-3">
                         <p class="white-text">Learn More</p>
                         <ul>
-                            <li><a href="#">Apply</a></li>
-                            <li><a href="#">FAQS </a></li>
-                            <li><a href="#">Terms and Conditions</a></li>
-                            <li><a href="#">hi@tiidelab.com</a></li>  
+                            <li><a href="./Apply.html">Apply</a></li>
+                            <li><a href="./faq.html">FAQS </a></li>
+                            <li><a href="https://drive.google.com/file/d/1v2g51mSMX2cY7PTzSWHeAwF1WAiNh8Br/view">Terms and Conditions</a></li>
+                            <li><a href="mailto:hi@tiidelab.com">hi@tiidelab.com</a></li>  
                         </ul>
                     </div>
                     <div class="col-lg-3">
                         <p class="white-text">Company</p>
                         <ul>
-                            <li><a href="#">About Us</a></li>
+                            <li><a href="./our-story.html">About Us</a></li>
                             <li><a href="#">Gallery</a></li>
-                            <li><a href="#">Contact Us</a></li>
+                            <li><a href="./faq.html">Contact Us</a></li>
                             <li><a href="#">Meet the fellows</a></li>
                             <li><a href="#"> Hire a developer</a></li>
                         </ul>
                     </div>
                 </div>
             </div>
-
+            
             <div class="container">
                 <hr style="color: #fff">
                 <div class="row">
@@ -236,7 +242,7 @@
     </footer>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.bundle.min.js" integrity="sha384-BOsAfwzjNJHrJ8cZidOg56tcQWfp6y72vEJ8xQ9w6Quywb24iOsW913URv1IS4GD" crossorigin="anonymous"></script>
     <script src="https://smtpjs.com/v3/smtp.js"></script>
-    <script src="../js/app.js"></script>
+    <script src="../js/mailing.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();

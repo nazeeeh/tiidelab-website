@@ -22,6 +22,8 @@
     <link rel="icon" type="image/png" sizes="32x32" href="./Assets/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="./Assets/favicon/favicon-16x16.png">
     <link rel="manifest" href="/Assets/favicon/site.webmanifest">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.1/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://themes.audemedia.com/html/goodgrowth/css/owl.theme.default.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css">
     <title>TIIDELab</title>
@@ -57,7 +59,13 @@
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                               <li><a class="dropdown-item" href="./pages/tiidelab-community.html">TIIDELab community</a></li>
-                              <li><a class="dropdown-item" href="./pages/meet-with-fellows.html">Meet the fellows</a></li>
+                              <li class="nav-item dropdown" id="sub-dropdown">
+                                <a class="nav-link" href="#" style="margin-left: 10px;"> Meet the fellows</a>
+                                <ul id="sub-dropdown-menu" class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="./pages/cohort-one.html">Cohort One</a></li>
+                                    <li><a class="dropdown-item" href="./pages/cohort-two.html">Cohort Two</a></li>
+                                </ul>
+                              </li>
                               <li><a class="dropdown-item" href="./pages/volunteer.html">Volunteer</a></li>
                             </ul>
                           </li>
@@ -291,15 +299,76 @@
                             </div>
                             <div class="col-lg-8">
                                 <div class="partners-logo">
-                                    <img class="logos" src="./Assets/itf-logo.png" alt="logo">
-                                    <img class="logos" src="./Assets/tcl-logo.png" alt="logo">
-                                    <img class="logos" src="./Assets/neca-logo.png" alt="logo">
+                                    <img class="logos" src="./Assets/itf-logo.png" alt="logo" height="" width="80px">
+                                    <img class="logos" src="./Assets/tcl-logo.png" alt="logo" height="" width="130px">
+                                    <img class="logos" src="./Assets/neca-logo.png" alt="logo" height="" width="130px">
+                                    <img class="logos" src="./Assets/ksolutions.png" alt="logo" height="" width="130px">
+                                    <img class="logos" src="./Assets/digi-agency.png" alt="logo" height="" width="130px">
                                 </div>
                             </div>
                         </div>
                     </div>
                 </section> 
             </div>
+
+            <!-- Partners testimonials --> 
+            <section class="testimonials">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-sm-12">
+                        <div class="text-center">
+                            <h2 class="heading">Testimonials</h2>
+                            <span class="subheading">Here are what our partners have to say</span>
+                        </div>
+                        <div id="customers-testimonials" class="owl-carousel">
+
+                            <!--TESTIMONIAL 1 -->
+                            <div class="item">
+                                <div class="shadow-effect">
+                                    <!-- <img class="img-circle" src="http://themes.audemedia.com/html/goodgrowth/images/testimonial3.jpg" alt=""> -->
+                                    <p>
+                                        We have never had it this good, we have witnessed 
+                                        tremendous growth in these guys and we are 
+                                        happy about their growth. we are glad our 
+                                        partnership with TIIDELab and we are 
+                                        willing to do more.
+                                    </p>
+                                </div>
+                                <div class="testimonial-name">Digital Agency</div>
+                            </div>
+                            <!--TESTIMONIAL 2 -->
+                            <div class="item">
+                                <div class="shadow-effect">
+                                  <p>
+                                      Esther and Micheal have been amazing in the way 
+                                      they discharge their duties, they work as if the organization 
+                                      is theirs and are professional in what they do. 
+                                      I believe they will go places and we are 
+                                      willing to do more with TIIDELab.
+                                </p>
+                                </div>
+                                <div class="testimonial-name">Ksolutions</div>
+                              </div>
+                              <!--TESTIMONIAL 3 -->
+                              <div class="item">
+                                <div class="shadow-effect">
+                                  <p>
+                                      Onyedikachi is one of the best people that our organization 
+                                      has ever have, He writes technical documentations clearly such 
+                                      that a layman will understand what happens to the codebase. 
+                                      His thinking faculties, confidence and communication 
+                                      skills are topnotch. 
+                                      He has been handling sophisticated projects 
+                                      for our company in recent time.
+                                </p>
+                                </div>
+                                <div class="testimonial-name">Hardcore Biometric Systems</div>
+                              </div>
+                        </div>
+                    </div>
+                  </div>
+                  </div>
+                </section>
 
             <!-- footer section -->
 
@@ -325,7 +394,7 @@
                                 <ul>
                                     <li><a href="./pages/Apply.html">Apply</a></li>
                                     <li><a href="./pages/faq.html">FAQS </a></li>
-                                    <li><a href="#">Terms and Conditions</a></li>
+                                    <li><a href="https://drive.google.com/file/d/1v2g51mSMX2cY7PTzSWHeAwF1WAiNh8Br/view">Terms and Conditions</a></li>
                                     <li><a href="mailto:hi@tiidelab.com">hi@tiidelab.com</a></li>  
                                 </ul>
                             </div>
@@ -339,9 +408,9 @@
                                     <li><a href="#"> Hire a developer</a></li>
                                 </ul>
                             </div>
-                        </div>
+                        </div> 
                     </div>
-
+                    
                     <div class="container">
                         <hr style="color: #fff">
                         <div class="row">
@@ -356,19 +425,21 @@
                 </div>
             </footer>
 
-    
-
-    <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper.js -->
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.bundle.min.js" integrity="sha384-BOsAfwzjNJHrJ8cZidOg56tcQWfp6y72vEJ8xQ9w6Quywb24iOsW913URv1IS4GD" crossorigin="anonymous"></script>
     <script src="./js/app.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script> AOS.init(); </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.1/owl.carousel.min.js"></script>
+    <script src="./js/carousels.js"></script>
+    
     <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
-<script type="text/javascript">
-$(document).ready(function(){
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
+    
+    <script type="text/javascript">
+    $(document).ready(function(){
     $("#testimonial-slider").owlCarousel({
         items:2,
         itemsDesktop:[1000,2],
@@ -382,7 +453,6 @@ $(document).ready(function(){
     });
 });
 </script>
-
 
     <!-- Option 2: Separate Popper.js and Bootstrap JS
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>

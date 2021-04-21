@@ -15,6 +15,10 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css" integrity="sha384-DhY6onE6f3zzKbjUPRc2hOzGAdEf4/Dz+WJwBvEYL/lkkIsI3ihufq9hk9K4lVoK" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- carousel CSS-->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.3/tiny-slider.css">
+
     <link rel="stylesheet" href="../style/style.css">
     <link rel="stylesheet" href="../style/mobile-view.css">
     <link rel="apple-touch-icon" sizes="180x180" href="../Assets/favicon/apple-touch-icon.png">
@@ -54,7 +58,13 @@
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                               <li><a class="dropdown-item" href="./tiidelab-community.html">TIIDELab community</a></li>
-                              <li><a class="dropdown-item" href="./meet-with-fellows.html">Meet the fellows</a></li>
+                              <li class="nav-item dropdown" id="sub-dropdown">
+                                <a class="nav-link" href="#" style="margin-left: 10px;"> Meet the fellows</a>
+                                <ul id="sub-dropdown-menu" class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="./cohort-one.html">Cohort One</a></li>
+                                    <li><a class="dropdown-item" href="./cohort-two.html">Cohort Two</a></li>
+                                </ul>
+                              </li>
                               <li><a class="dropdown-item" href="./volunteer.html">Volunteer</a></li>
                             </ul>
                           </li>
@@ -73,7 +83,7 @@
                 <div class="row">
                     <div class="col-lg-6 col-md-6 col-sm-12">
                         <p data-aos="zoom-in-down" data-aos-delay="300" data-aos-duration="2000"> 
-                            We are intentional about raising a crop of Problem Solvers that provide sustainable 
+                            We are intentional about raising a crop of problem solvers that provide sustainable 
                             solutions to various challenges we face daily. Our fellows are equipped 
                             with requisite technologies and soft skills needed to translate innovative ideas to reality.
                             At TIIDELab, 
@@ -110,12 +120,12 @@
                         <div class="flex-numbers-1">
                             <div class="our-numbers counters">
                                 <hr style="color: black; width: 80%; margin: 0 auto;">
-                                <h1 style="color: #3173C1;" class="card-title counter" data-target="700">700</h1>
+                                <h1 style="color: #3173C1;" class="card-title counter" data-target="700">1641</h1>
                                 <p style="color: #333; font-weight: 700;" class="card-text">Applicants</p>
                             </div>
                             <div class="our-numbers">
                                 <hr style="color: black; width: 80%; margin: 0 auto;">
-                                <h1 style="color: #3173C1;" class="card-title counter" data-target="35">35</h1>
+                                <h1 style="color: #3173C1;" class="card-title counter" data-target="70">70</h1>
                                 <p style="color: #333; font-weight: 700;" class="card-text">Accepted</p>
                             </div>
                         </div>
@@ -123,17 +133,36 @@
                         <div class="flex-numbers-2">
                             <div class="our-numbers">
                                 <hr style="color: black; width: 80%; margin: 0 auto;">
-                                <h1 style="color: #3173C1;" class="card-title counter" data-target="28">28</h1>
+                                <h1 style="color: #3173C1;" class="card-title counter" data-target="56">56</h1>
                                 <p style="color: #333; font-weight: 700;" class="card-text">Trained</p>
                             </div>
                             <div class="our-numbers">
                                 <hr style="color: black; width: 80%; margin: 0 auto;">
-                                <h1 style="color: #3173C1;" class="card-title counter" data-target="20">20</h1>
+                                <h1 style="color: #3173C1;" class="card-title counter" data-target="36">36</h1>
                                 <p style="color: #333; font-weight: 700;" class="card-text">Interned</p>
                             </div>
                         </div>
                     </div>
                 </div>
+            </div>
+        </section>
+
+        <section>
+            <div id="slider">            
+                        <div class="my-slider">
+                            <img src="../Assets/deliberation.png" alt="cohorts" height="300px">
+                            <img src="../Assets/session.png" alt="cohorts" height="300px">
+                            <img src="../Assets/presentation.png" alt="cohorts" height="300px">
+                            <img src="../Assets/speech-press.png" alt="cohorts" height="300px">
+                            <img src="../Assets/puzzle.png" alt="cohorts" height="300px">
+                            <img src="../Assets/press-conference.png" alt="cohorts" height="300px">
+                            <img src="../Assets/lagos-fellas.png" alt="cohorts" height="300px">
+                            <img src="../Assets/frday-class.png" alt="cohorts" height="300px">
+                            <img src="../Assets/fellows.png" alt="cohorts" height="300px">
+                            <img src="../Assets/online_gradz.png" alt="cohorts" height="300px">
+                            <img src="../Assets/cert-presentation.png" alt="cohorts" height="300px">
+                            <img src="../Assets/graduation.png" alt="cohorts" height="300px">
+                        </div>
             </div>
         </section>
     </div>
@@ -161,10 +190,10 @@
                     <div class="col-lg-3">
                         <p class="white-text">Learn More</p>
                         <ul>
-                            <li><a href="#">Apply</a></li>
-                            <li><a href="#">FAQS </a></li>
-                            <li><a href="#">Terms and Conditions</a></li>
-                            <li><a href="#">hi@tiidelab.com</a></li>  
+                            <li><a href="./Apply.html">Apply</a></li>
+                            <li><a href="./faq.html">FAQS </a></li>
+                            <li><a href="https://drive.google.com/file/d/1v2g51mSMX2cY7PTzSWHeAwF1WAiNh8Br/view">Terms and Conditions</a></li>
+                            <li><a href="mailto:hi@tiidelab.com">hi@tiidelab.com</a></li>  
                         </ul>
                     </div>
                     <div class="col-lg-3">
@@ -179,7 +208,6 @@
                     </div>
                 </div>
             </div>
-
             <div class="container">
                 <hr style="color: #fff">
                 <div class="row">
@@ -195,6 +223,9 @@
     </footer>
 
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.bundle.min.js" integrity="sha384-BOsAfwzjNJHrJ8cZidOg56tcQWfp6y72vEJ8xQ9w6Quywb24iOsW913URv1IS4GD" crossorigin="anonymous"></script>
+    <!-- carousel JS -->
+    <!-- <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
     <script src="../js/app.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>

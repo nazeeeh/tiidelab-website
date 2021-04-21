@@ -20,19 +20,36 @@ li, a, button,p {
     color: rgba(0, 0, 0, 0.72);;
 }
 
+
 header {
     background: #FFFFFF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    /* position: fixed;
+    width: 100%; */
     }
 
-/* nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 30px 10%;
+/* Navigation bar */
+/* #navbarSupportedContent .navbar-nav li a{
+    
 } */
 
-/* Navigation bar */
+#sub-dropdown-menu{
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    margin-left: 186px;
+    margin-top: -26px;
+}
+
+#sub-dropdown-menu a, .dropdown-menu a{
+    color: #000 !important;
+
+}
+.dropdown:hover .dropdown-menu{display: block; transform: all 0.5s ease-in-out;}
+
+#sub-dropdown:hover #sub-dropdown-menu{display: block;}
+
+
  .logo {
     cursor: pointer;
 }
@@ -54,7 +71,6 @@ header {
 .nav-links ul li a:hover {
     color: #3173c1;
 }
-
 
 
 /* Dropdown-menu */
@@ -100,11 +116,13 @@ button {
     color: #fff;
     cursor: pointer;
     transition: all 0.5s ease 0s;
+    
 
 }
 
 button:hover{
     background-color: #4375a1;
+    outline: none;
 } 
 
 /* Begin your journey section */
@@ -194,7 +212,8 @@ border-radius: 20px 0px 0px 20px;
     background-blend-mode: luminosity;
     width: 100%;
     background-attachment: fixed;
-    /* background-repeat: no-repeat; */
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 #main .cta-image .button{
@@ -232,11 +251,88 @@ border-radius: 20px 0px 0px 20px;
 
 }
 
+#partners .partners-logo .logos{
+    margin: 0 2rem;
+}
+
  #partners .align-text .side-bar{
     width: 1%;
     height: 6vh;
     background: #3173c1;
     border-radius: 20px 0 0 20px;
+}
+
+/* Partners testimonials */
+.shadow-effect {
+    background: #fff;
+    padding: 20px;
+    border-radius: 4px;
+    text-align: center;
+border:1px solid #ECECEC;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.10), 0 15px 12px rgba(0,0,0,0.02);
+}
+#customers-testimonials .shadow-effect p {
+    font-family: inherit;
+    font-size: 17px;
+    line-height: 1.5;
+    margin: 0 0 17px 0;
+    font-weight: 300;
+}
+.testimonial-name {
+    margin: -17px auto 0;
+    display: table;
+    width: auto;
+    font-weight: bolder;
+    background: #3190E7;
+    padding: 9px 35px;
+    border-radius: 12px;
+    text-align: center;
+    color: #fff;
+    box-shadow: 0 9px 18px rgba(0,0,0,0.12), 0 5px 7px rgba(0,0,0,0.05);
+}
+#customers-testimonials .item {
+    text-align: center;
+    padding: 50px;
+        margin-bottom:80px;
+    opacity: .2;
+    -webkit-transform: scale3d(0.8, 0.8, 1);
+    transform: scale3d(0.8, 0.8, 1);
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+#customers-testimonials .owl-item.active.center .item {
+    opacity: 1;
+    -webkit-transform: scale3d(1.0, 1.0, 1);
+    transform: scale3d(1.0, 1.0, 1);
+}
+.owl-carousel .owl-item img {
+    transform-style: preserve-3d;
+    max-width: 90px;
+    margin: 0 auto 17px;
+}
+#customers-testimonials.owl-carousel .owl-dots .owl-dot.active span,
+#customers-testimonials.owl-carousel .owl-dots .owl-dot:hover span {
+    background: #3190E7;
+    transform: translate3d(0px, -50%, 0px) scale(0.7);
+}
+#customers-testimonials.owl-carousel .owl-dots{
+display: inline-block;
+width: 100%;
+text-align: center;
+}
+#customers-testimonials.owl-carousel .owl-dots .owl-dot{
+display: inline-block;
+}
+#customers-testimonials.owl-carousel .owl-dots .owl-dot span {
+    background: #3190E7;
+    display: inline-block;
+    height: 20px;
+    margin: 0 2px 5px;
+    transform: translate3d(0px, -50%, 0px) scale(0.3);
+    transform-origin: 50% 50% 0;
+    transition: all 250ms ease-out 0s;
+    width: 20px;
 }
 
 /* footer section */
@@ -246,6 +342,13 @@ footer{
     padding: 25px 25px 10px 25px;
     background: linear-gradient(358.73deg, rgba(3, 31, 65, 0) -19.91%, #042348 2.98%, #04244A 92.19%)
 }
+
+footer .scrolll {
+    display: flex;
+    justify-content: flex-end;
+    padding: 16px
+  }
+  
 #footer .contact-text{
     color: #fff;
     font-size: 20px;
@@ -313,7 +416,7 @@ footer{
     font-family: montserrat;
     font-size: 18px;
     font-weight: 200;
-    line-height: 2;
+    line-height: 3;
     text-align: left;
   
 }
@@ -386,6 +489,15 @@ footer{
     width: 100%; 
 }
 
+#journey-so-far #slider{
+    margin: 2rem 0;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+#journey-so-far .my-slider{
+    padding: 2rem 0;
+}
 
 /* Our story section */
 #our-story #story-header img{
@@ -496,7 +608,8 @@ footer{
 
 #partnerships .paragraph p{
     font-family: "montserrat";
-    font-size: 16px;
+    font-size: 20px;
+    
 }
 
 #partnerships .sponsor-image{
@@ -722,7 +835,7 @@ footer{
     flex-direction: column;
     flex-wrap: nowrap;
     position: relative;
-    left: 12rem;
+    left: 15rem;
     top: -11rem;
     bottom: 0;
 }
