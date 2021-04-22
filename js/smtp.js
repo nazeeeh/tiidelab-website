@@ -1,4 +1,5 @@
-﻿/* SmtpJS.com - v3.0.0 */
+﻿
+/* SmtpJS.com - v3.0.0 */
 // var Email = { 
 //     send: function (a) { 
 //         return new Promise(function (n, e) 

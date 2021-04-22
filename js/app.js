@@ -27,26 +27,6 @@
     }
   });
   
-
-// function sendEmail(name, email, message, subject) { 
-//     Email.send({ 
-//       SecureToken: "162f5cea-b390-493e-af5f-867375ef8fc9", 
-//       Host: "smtp.gmail.com", 
-//       Username: "dministry356@gmail.com",
-//       Password: "dointuzewauuksld",
-//       To: "dministry35@gmail.com",
-//       From: "dministry356@gmail.com", 
-//       Subject: `${name}: ${subject}Sent you message`,
-//       Body: `${name}: ${message}  ${email}`,
-//       Attachments: [ 
-//         { 
-//           name: `${file}.jpg`, 
-//           path: `https://tiidelab-website.netlify.app/pages/volunteer.html/${file}.jpg` 
-//         }] 
-//     }).then((message) => { 
-//         alert("Mail has been sent successfully");
-//       }); 
-//   } 
 //  Counter
 // const counter = document.querySelectorAll('.counter');
 // const speed = 200;

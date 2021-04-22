@@ -605,7 +605,10 @@ footer .scrolll {
     text-transform: uppercase;
     color: #E1341E;
 }
+.sweet-confirm {
+    background: #3173c1;
 
+}
 #partnerships .paragraph p{
     font-family: "montserrat";
     font-size: 20px;
