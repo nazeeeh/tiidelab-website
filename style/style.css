@@ -731,13 +731,19 @@ footer .scrolll {
     padding: 4em 12em;
 }
 
-#tiidelab-community .news-letter .newsletter-text{
-    margin-top: 2rem;
-}
+/* #tiidelab-community .news-letter .newsletter-text{
+    margin-top: 1rem;
+} */
 
 #tiidelab-community .news-letter h5{
     font-family: montserrat;
     color: #3173c1;
+}
+
+#tiidelab-community #email-input input{
+    width: 20vw;
+    height: 5vh;
+    outline: none;
 }
 
 #tiidelab-community .news-letter-signup-btn{

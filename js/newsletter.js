@@ -1,71 +1,29 @@
-/** code by webdevtrick.com ( https://webdevtrick.com ) **/
-var validateEmail = function(elementValue) {
-    var emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
-    return emailPattern.test(elementValue);
-}
-$('#email').keyup(function() {
- 
-    var value = $(this).val();
-    var valid = validateEmail(value);
- 
-    if (!valid) {
-        $(this).css('color', 'red');
-		$('.addbut1').prop('disabled', true);
-    } else {
-        $(this).css('color', '#2bb673');
-		$('.addbut1').prop('disabled', false);
-    }
-});
- 
-const newsletter = {};
- 
-newsletter.main = document.querySelector('.main');
-newsletter.form = document.querySelector('.main > #singular-form');
-newsletter.subs = document.querySelector('.main > #singular-form > button#subs');
-newsletter.input = document.querySelector('.main>#singular-form>#email-input>input');
-newsletter.submitButton = document.querySelector('.main > #singular-form > #email-input > button');
-newsletter.successMessage = document.querySelector('.main > #singular-form > #success');
- 
-newsletter.submitDelay = 1000;
- 
-newsletter.clickHandler = (e) => {
-    switch (e.target) {
-        case newsletter.subs:
-            console.log('case subs');
-            newsletter.main.style.width = '37rem'
-            e.target.classList.remove('shown');
-            newsletter.input.classList.add('shown');
-            newsletter.submitButton.classList.add('shown');
-            newsletter.input.focus();
-            break;
-        case newsletter.submitButton:
-            newsletter.submitForm();
-            break;
-    }
-}
-newsletter.handleInputKeypress = (e) => {
-    if (e.keyCode === 13) {
-        e.preventDefault();
-        newsletter.submitForm();
-    }
-}
-newsletter.submitForm = () => {
-    newsletter.input.style.transition = 'all .6s ease';
-    newsletter.submitButton.style.transition = 'all .6s ease';
-    newsletter.input.classList.remove('shown');
-    newsletter.submitButton.classList.remove('shown');
-    newsletter.main.style.transition = 'all .6s cubic-bezier(0.47, 0.47, 0.27, 1.20) .4s';
-    newsletter.main.style.width = '';
-    newsletter.successMessage.classList.add('shown');
-    let submission = setTimeout(() => newsletter.form.submit(), newsletter.submitDelay);
-}
- 
-newsletter.input.addEventListener('keypress', (e) => newsletter.handleInputKeypress(e));
-document.addEventListener('click', (e) => newsletter.clickHandler(e));
+//listen to click button
+document.querySelector('.newsletter').addEventListener('submit', formSubmit);
 
-// $(window).load(function(){
-//     $('#singular-form').sForm({
-//       ownerEmail:'dministry356@gmail.com',
-//       sitename:'#'
-//     })
-//   })  
+function formSubmit(e){
+    e.preventDefault()
+    let email = document.getElementById("email").value;
+    document.querySelector(".newsletter").reset();
+
+    sendMail(email);
+}
+
+function sendMail(email){
+    Email.send({
+        Host: "smtp.outlook.com",
+        Username: "hi@tiidelab.com",
+        password: 'bwwclzpcdyjjfpbq',
+        To: 'hi@tiidelab.com',
+        From: `${email}`,
+        Subject: `${email} sent you a message`,
+    }).then((msg) => swal({
+        title: "Great!",
+        text: "You have successfully signed up to our newsletters.",
+        icon: "success",
+        button: {
+            confirm: 'Ok' , className: 'sweet-confirm'
+        }
+      })
+      )
+}
