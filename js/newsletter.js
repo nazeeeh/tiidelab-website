@@ -17,6 +17,7 @@ function sendMail(email){
         To: 'hi@tiidelab.com',
         From: `${email}`,
         Subject: `${email} sent you a message`,
+        
     }).then((msg) => swal({
         title: "Great!",
         text: "You have successfully signed up to our newsletters.",
@@ -25,5 +26,6 @@ function sendMail(email){
             confirm: 'Ok' , className: 'sweet-confirm'
         }
       })
+      
       )
 }
