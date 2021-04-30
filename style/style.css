@@ -823,6 +823,16 @@ footer .scrolll {
 
 }
 
+/* Our students exploits section */
+
+#main .students-exploits{
+    padding: 5rem 0;
+}
+
+#main .students-exploits h2{
+    text-align: center;
+}
+
 /* Apply Now */
 
 #apply-now {
